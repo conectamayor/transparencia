@@ -1,0 +1,1015 @@
+<template>
+  <div>
+    <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      background="#ababab"
+      img-width="1024"
+      img-height="480"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+      <b-carousel-slide>
+        <template #img>
+          <img
+            class="d-block img-fluid w-100"
+            width="1024"
+            height="480"
+            :src="'./frontend/assets/images/slider/slider-1.png'"
+            alt="image slot"
+          >
+          <div class="carousel-extra-content">
+            Transparencia
+          </div>
+          <div class="carousel-extra-content-p">
+            La transparencia es uno de los pilares centrales de Conecta Mayor. Creamos este portal para profundizar y mostrar los resultados y alcance de nuestros proyectos. También encontrarás el destino y administración de los recursos que financian nuestras nuevas iniciativas y la operación de la Fundación, siempre con nuestro compromiso principal de promover la inclusión de las personas mayores a través de la tecnología.
+          </div>
+        </template>
+
+        
+      </b-carousel-slide>
+    </b-carousel>
+    <div class="section pt-5 pb-5 blue_ligth_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-4">
+            <img :src="'./frontend/assets/images/social_impact/main.jpg'" class="img-fluid" />
+          </div>
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-4">
+            <h5 class="big_blue_letters">
+              Impacto Social
+            </h5>
+            <h5 class="small_blue_letters">
+              ¡Conoce cómo impactan nuestros proyectos a mejorar la calidad de vida de las personas mayores!
+            </h5>
+            <h5 class="pt-2">
+              <center><b-button v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+            </h5>
+          </div>
+          <div class="col-md-1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <b-collapse id="collapse-1">
+      <div class="section about-feature-bg section-padding">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <h1 class="numbers">
+                80.000
+              </h1>
+              <h1 class="small_blue_letters">
+                Beneficiarios de Conecta Mayor
+              </h1>
+            </div>
+            <div class="col-md-4">
+              <h1 class="numbers">
+                336
+              </h1>
+              <h1 class="small_blue_letters">
+                Municipalidades trabajando con Conecta Mayor
+              </h1>
+            </div>
+            <div class="col-md-4">
+              <h1 class="numbers">
+                20.000
+              </h1>
+              <h1 class="small_blue_letters">
+                Lorem ipsum Lorem ipsum Lorem ipsum
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section pt-5 pb-5 gray_ligth_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4 text-justify">
+              <p class="small_gray_letters">
+                En Conecta Mayor buscamos promover la integración social de las personas mayores a través de iniciativas, estudios y programas que permitan conectarlos, visibilizarlos y brindarles compañía, además de favorecer su inclusión digital.
+              </p>
+              <p class="small_gray_letters">
+                A través de estas iniciativas y proyectos, buscamos impactar y generar cambios positivos en la calidad de vida de los mayores. En esta sección encontrarás los resultados obtenidos hasta el momento ¡Te invitamos a conocer todas nuestras iniciativas!
+              </p>
+              <center><button type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
+              <br>
+              <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> la evaluación de impacto</button></center>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4">
+              <img :src="'./frontend/assets/images/social_impact/slider1.png'" class="img-fluid" />
+            </div>
+            
+            <div class="col-md-1">
+
+            </div>
+          </div>
+          <br><br>
+          <div class="row text-center">
+            <div class="col-md-12">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="1024" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNjJjMzJlZDEtMGRkMy00NzZhLTlhOGEtZjhjMDNkOTA5OTU0IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section pt-5 pb-5 blue_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4">
+              <img :src="'./frontend/assets/images/social_impact/slider2.jpeg'" class="img-fluid" />
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4 text-justify">
+              <h5 class="big_white_letters">
+                Impacto Celulares CM
+              </h5>
+              <br><br>
+              <p class="small_white_letters">
+                Los celulares Conecta Mayor son dispositivos diseñados especialmente para ser usado por personas mayores. Disponen de un software que facilita la interfaz para el beneficiario conectándolo con sus redes de apoyo y locales y, también cuentan con botones predeterminados para diferentes necesidades de conexión, información y entretenimiento.
+              </p>
+              <p class="small_white_letters">
+                ¡Conoce más sobre el impacto generado por el CM Virtual en esta sección!
+              </p>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4">
+              <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+            </div>
+            <div class="col-md-1">
+              
+            </div>
+            <div class="col-md-4 text-justify">
+              <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section pt-5 pb-5 gray_ligth_section section-padding">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4">
+              <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            
+            <div class="col-md-4 text-justify">
+              <h5 class="big_blue_letters">
+                Impacto Central de Acompañamiento
+              </h5>
+              <p class="small_blue_letters">
+                La Central de acompañamiento es una línea telefónica con la que los beneficiarios de Conecta Mayor pueden comunicarse para ser escuchados y acompañados durante las 24 horas. Al llamar, son acogidos por ejecutivos especialmente capacitados para acompañarlos, entregarles información y gestionar servicios de emergencia locales de ser necesario.
+              </p>
+              <p class="small_blue_letters">
+                Las personas mayores pueden llamar haciendo un solo clic y todas las veces que quieran hacerlo. Este servicio busca contrarrestar la soledad y/o aislamiento que muchos de ellos enfrentan.
+              </p>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-12">
+              <img :src="'https://via.placeholder.com/600x200/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        controls
+        indicators
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+
+        <!-- Slides with img slot -->
+        <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider1.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+      </b-carousel>
+    </div>
+    </b-collapse>
+    <div class="section pt-5 pb-5 gray_ligth_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-4">
+            <img :src="'./frontend/assets/images/gochile/main.png'" class="img-fluid" />
+          </div>
+          <div class="col-md-1">
+
+          </div>
+          
+          <div class="col-md-4">
+            <h5 class="big_blue_letters">
+              Programa "Vamos Chilenos"
+            </h5>
+            <h5 class="small_blue_letters">
+              Revisa lo resultados del programa “Vamos Chilenos” acá.
+            </h5>
+            <h5 class="pt-2">
+              <center><b-button v-b-toggle.collapse-2 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+            </h5>
+          </div>
+          <div class="col-md-1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <b-collapse id="collapse-2">
+      <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      background="#ababab"
+      img-width="1024"
+      img-height="600"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'http://via.placeholder.com/1800x600'"
+            >
+            <div class="go-chile-carousel-caption">
+              Fundación Conecta Mayor realizó un compromiso con todos los chilenos y chilenas que dieron su aporte en la campaña ¡Vamos Chilenos!: conectar a 80 mil personas mayores a lo largo de todo el país. Con el objetivo de transparentar los progresos de las entregas y rendir cuentas sobre el destino de la recaudación, contamos con un visualizador en línea de los avances de nuestra operación, publicamos nuestros gastos y pronto presentaremos nuestra memoria anual y otras herramientas públicas para que nos acompañes en este camino.
+            </div>
+          </template>
+        </b-carousel-slide>
+      </b-carousel>
+      <div class="section pt-5 pb-5 blue_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <b-card
+                img-src="./frontend/assets/images/gochile/dispositive.jpg"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 100rem; border-radius: 25px !important; border: none !important;"
+                class="mb-2"
+              >
+                <b-card-text>
+                  <h1 class="go-chile-card-title text-center">
+                    Entrega de dispositivos por municipalidad
+                  </h1>
+                  <center><b-button v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+                </b-card-text>
+              </b-card>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section pt-5 pb-5 gray_ligth_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4">
+              <img :src="'./frontend/assets/images/gochile/products.jpg'" class="img-fluid" style="border-radius: 25px;" />
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            
+            <div class="col-md-4">
+              <h5 class="big_blue_letters">
+                Kit de insumos y alimentos
+              </h5>
+              <h5 class="small_blue_letters">
+                Adicionalmente, las 80.000 personas mayores beneficiadas recibieron dos cajas de alimentos y artículos de aseo para el hogar e higiene personal, lo que busca dar un apoyo adicional para paliar parte de los problemas que se han presentado durante la pandemia.
+              </h5>
+              <h5 class="pt-2">
+                <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> de entregas</button></center>
+              </h5>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4 text-center">
+              <h5 class="go-chile-resources-title">
+                Gestión de Recursos “Vamos Chilenos”
+              </h5>
+              <img :src="'http://via.placeholder.com/400x400'" class="img-fluid" style="border-radius: 25px;" />
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            
+            <div class="col-md-4">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h5>
+                <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Informe de transparencia <br> "Vamos Chilenos"</button></center>
+              </h5>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section pt-5 pb-5 gray_ligth_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="go-chile-multiple-carrousel-title text-center">
+                Fotos "Vamos Chilenos"
+              </h1>
+              <b-carousel>
+                <b-carousel-slide>
+                  <template v-slot:img>
+                    <b-card-group>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                    </b-card-group>
+                  </template>
+                </b-carousel-slide>
+                <b-carousel-slide>
+                  <template v-slot:img>
+                    <b-card-group>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                    </b-card-group>
+                  </template>
+                </b-carousel-slide>
+                <b-carousel-slide>
+                  <template v-slot:img>
+                    <b-card-group>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                      <b-card img-src="http://via.placeholder.com/400x300" overlay></b-card>
+                    </b-card-group>
+                  </template>
+                </b-carousel-slide>
+              </b-carousel>
+            </div>
+          </div>
+        </div>
+      </div>
+    </b-collapse>
+    <div class="section pt-5 pb-5 blue_ligth_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-4">
+            <img :src="'./frontend/assets/images/financial/main.jpeg'" class="img-fluid" />
+          </div>
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-4">
+            <h5 class="big_blue_letters">
+              Estados Financieros y Memorias
+            </h5>
+            <h5 class="small_blue_letters">
+              Lee las memorias e informes FECU desde que comenzó Conecta Mayor.
+            </h5>
+            <h5 class="pt-2">
+              <center><b-button v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+            </h5>
+          </div>
+          <div class="col-md-1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section pt-5 pb-5 gray_ligth_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-4">
+            <img :src="'./frontend/assets/images/faq/main.jpg'" class="img-fluid" />
+          </div>
+          <div class="col-md-1">
+
+          </div>
+          
+          <div class="col-md-4">
+            <h5 class="big_blue_letters">
+              Preguntas Frecuentes
+            </h5>
+            <h5 class="small_blue_letters">
+              ¡No te quedes con dudas! Acá resolvemos las más comunes.
+            </h5>
+            <h5 class="pt-2">
+              <center><b-button v-b-toggle.collapse-4 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+            </h5>
+          </div>
+          <div class="col-md-1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <b-collapse id="collapse-4">
+      <div class="section pt-5 pb-5 gray_ligth_section">
+        <div class="container-fluid">
+          <div class="faq_accordion" role="tablist">
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cómo se seleccionó a los beneficiarios?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cuáles son los requisitos?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cómo y cuándo distribuimos los beneficios?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cuáles son los costos del dispositivo para el beneficiario?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿El beneficiario es dueño del dispositivo?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué ocurre si el CM Virtual se pierde o alguien se lo quita a la persona mayor?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué sucede cuando fallece un beneficiario?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué pasa si un usuario quiere devolver el dispositivo?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué pasa si un usuario quiere devolver el dispositivo?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
+                  <b-card-text>{{ text }}</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+          </div>
+        </div>
+      </div>
+    </b-collapse>
+    <div class="section">
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        controls
+        indicators
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+
+        <!-- Slides with img slot -->
+        <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider1.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider2.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider3.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider4.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider5.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider6.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider7.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer_sliders/slider8.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+      </b-carousel>
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        background="#fff"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/footer/top-footer.png'"
+              alt="image slot"
+            >
+          </template>
+
+          
+        </b-carousel-slide>
+      </b-carousel>
+    </div>
+  </div>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
+  }
+</script>
+  <style scoped>
+  .go-chile-resources-title {
+    color: #2F397F !important;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .go-chile-multiple-carrousel-title {
+    color: #2F397F !important;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }
+  .go-chile-card-title {
+    color: #2F397F !important;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }
+  .go-chile-carousel-caption {
+    position: absolute;
+    left: 4em;
+    top: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: #fff !important;
+    font-weight: 500;
+    opacity: 1;
+    width: 44% !important;
+  }
+
+  @media (min-width: 576px) {
+    .carousel-extra-content-p {
+      position: absolute;
+      left: 15em;
+      top: 17em;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      color: #fff !important;
+      font-weight: 500;
+      opacity: 1;
+      width: 28% !important;
+    }
+    .carousel-extra-content {
+      position: absolute;
+      left: 4em;
+      top: 3em;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 56px;
+      color: #fff !important;
+      font-weight: bold;
+    }
+    .big_blue_letters {
+      font-size: 45px !important;
+      font-family: 'Ubuntu', sans-serif;
+      color: #2F397F;
+      font-weight: bold;
+      padding-top: 25px;
+    }
+    .big_white_letters {
+      font-size: 45px !important;
+      font-family: 'Ubuntu', sans-serif;
+      color: #fff;
+      font-weight: bold;
+      padding-top: 25px;
+    }
+
+    .plus-symbol-accordion {
+      font-size: 50px !important;
+    }
+    .accordion-words {
+      font-size: 30px !important; 
+      font-family: 'Ubuntu', sans-serif; 
+      opacity: 1; 
+      color: #414141; 
+      font-weight: bold;
+    }
+    .accordion-design {
+      border: none !important; 
+      padding-bottom: 10px; 
+      background-color: #f1f1f180 !important;
+    }
+    .answer-accordion {
+      background-color: #f1f1f180;
+    }
+    .card-header-accordion {
+      background-color: #ccc !important; 
+      height: 95px !important;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .carousel-extra-content-p {
+      display: none;
+    }
+    .carousel-extra-content {
+      position: absolute;
+      left: 3em;
+      top: 3em;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 20px;
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    .big_blue_letters {
+      font-size: 30px !important;
+      font-family: 'Ubuntu', sans-serif;
+      color: #2F397F;
+      font-weight: bold;
+      padding-top: 25px;
+    }
+    .big_white_letters {
+      font-size: 30px !important;
+      font-family: 'Ubuntu', sans-serif;
+      color: #fff;
+      font-weight: bold;
+      padding-top: 25px;
+    }
+
+    .plus-symbol-accordion {
+      font-size: 18px !important;
+    }
+    .accordion-words {
+      font-size: 15px !important; 
+      font-family: 'Ubuntu', sans-serif; 
+      opacity: 1; 
+      color: #414141; 
+      font-weight: bold;
+    }
+    .accordion-design {
+      border: none !important;
+      background-color: #f1f1f180 !important;
+    }
+    .answer-accordion {
+      background-color: #f1f1f180;
+    }
+    .card-header-accordion {
+      background-color: #ccc !important; 
+    }
+  }
+  
+  .pt-6 {
+    padding-top: 40px !important;
+  }
+  .pb-6 {
+    padding-top: 40px !important;
+  }
+  .small_blue_letters {
+      font-family: 'Noto Sans', sans-serif;
+      color: #2F397F;
+      font-weight: 100;
+      font-size: 18px;
+  }
+  .small_white_letters {
+      font-family: 'Noto Sans', sans-serif;
+      color: #fff;
+      font-weight: 100;
+      font-size: 18px;
+  }
+  .gray_ligth_section {
+    background: #f1f1f180;
+  }
+  .blue_ligth_section {
+    background: #2769dc80;
+  }
+  .blue_section {
+    background: #2F397F;
+  }
+  .btn-circle.btn-sm {
+    width: 65px;
+    height: 65px;
+    padding: 2px 0px;
+    border-radius: 50px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #2F397F !important;
+  }
+
+  .numbers {
+    font-size: 70px !important;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2F397F;
+    font-weight: bold;
+  }
+
+  .section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .blue_number_letters {
+    font-family: 'Noto Sans', sans-serif;
+    color: #2F397F;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .small_gray_letters {
+      font-family: 'Noto Sans', sans-serif;
+      color: #737373;
+      font-weight: 100;
+      font-size: 20px;
+      opacity: 1;
+  }
+  .btn-circle.btn-sm.first_integration_button {
+    width: 300px;
+    height: 65px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #2768DC !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+  }
+  .btn-circle.btn-sm.second_integration_button {
+    width: 300px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #2768DC !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+  }
+
+  .faq_accordion .card-header {
+    background-color: #f1f1f180 !important;
+    background: transparent;
+  }
+</style>
