@@ -36,7 +36,6 @@
 .navbar.navbar-dark.bg-dark {
     background-color: #fff !important;
 }
-
 .nav-item.nav-item.nav-item a {
     color: #464646 !important;
     font-family: 'Raleway';

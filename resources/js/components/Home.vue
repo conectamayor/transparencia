@@ -104,7 +104,7 @@
               <p class="small_gray_letters">
                 A través de estas iniciativas y proyectos, buscamos impactar y generar cambios positivos en la calidad de vida de los mayores. En esta sección encontrarás los resultados obtenidos hasta el momento ¡Te invitamos a conocer todas nuestras iniciativas!
               </p>
-              <center><button type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
+              <center><button @click="Iniciatives()" type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
               <br>
               <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> la evaluación de impacto</button></center>
             </div>
@@ -117,14 +117,6 @@
             
             <div class="col-md-1">
 
-            </div>
-          </div>
-          <br><br>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="1024" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNjJjMzJlZDEtMGRkMy00NzZhLTlhOGEtZjhjMDNkOTA5OTU0IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
-              </div>
             </div>
           </div>
         </div>
@@ -290,11 +282,8 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'http://via.placeholder.com/1800x600'"
+              :src="'./frontend/assets/images/gochile/background.png'"
             >
-            <div class="go-chile-carousel-caption">
-              Fundación Conecta Mayor realizó un compromiso con todos los chilenos y chilenas que dieron su aporte en la campaña ¡Vamos Chilenos!: conectar a 80 mil personas mayores a lo largo de todo el país. Con el objetivo de transparentar los progresos de las entregas y rendir cuentas sobre el destino de la recaudación, contamos con un visualizador en línea de los avances de nuestra operación, publicamos nuestros gastos y pronto presentaremos nuestra memoria anual y otras herramientas públicas para que nos acompañes en este camino.
-            </div>
           </template>
         </b-carousel-slide>
       </b-carousel>
@@ -497,120 +486,190 @@
               </b-card-header>
               <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>
+                    Los municipios definieron quienes son los beneficiarios que participan de esta iniciativa, los cuales deben cumplir con una serie de requisitos.
+                  </b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-2 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cuáles son los requisitos?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>
+                    - Ser residente de la comuna.<br><br>
+                    - Ser parte del 40% de la población más vulnerable a nivel nacional, según el Registro Social de Hogares (RSH).<br><br>
+                    - Tener 70 o más años, al 31 de abril de 2021.<br><br>
+                    - Vivir solo, acompañado de otra persona mayor o de una persona a su cuidado. Específicamente, deben ser:<br><br>
+                      * Personas que habitan solas una vivienda.<br><br>
+                      * Personas cuyo Registro Social de Hogares (RSH) indica que viven en un hogar unipersonal (por ejemplo, en una vivienda puede haber más de un hogar unipersonal, o personas que habitaban un hogar unipersonal antes de la pandemia).<br><br>
+                      * Personas que viven en compañía de una persona con dependencia o discapacidad al cuidado de ellos. Esta situación deberá quedar registrada mediante la elaboración de un breve informe social que indique la situación de la persona mayor y cuyo formato facilitará la Fundación, y que el Municipio deberá enviar a la Fundación vía correo electrónico.
+                  </b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-3 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cómo y cuándo distribuimos los beneficios?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>Los municipios son nuestros aliados y ellos, además de identificar a los beneficiarios, inscriben a repartidores, quienes son capacitados para entregar el dispositivo a las personas mayores y explicarles sobre su uso. También distribuyen los Kits de insumos y alimentos. Por la compleja logística de entrega en todo Chile, desde la Fundación esperamos que los municipios puedan completar la entrega de los 80 mil equipos durante este año 2021.</b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-4 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cuáles son los costos del dispositivo para el beneficiario?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>El dispositivo CM Virtual es gratuito para las personas mayores.  En Conecta Mayor jamás le cobraremos a las personas mayores beneficiarias. El beneficio considera dos años del servicio de acompañamiento de la Central de Ayuda y Comunicación Conecta Mayor y, gracias a la donación de Entel, incluye un plan mensual gratuito de 300 minutos, 50 SMS e internet para WhatsApp ilimitado por los 24 meses.</b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-5 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿El beneficiario es dueño del dispositivo?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>No, el beneficiario recibe el beneficio en calidad de comodato, accediendo al dispositivo y una vez que no lo requiera deberá retornarlo a la Municipalidad local para ser asignado a otra persona mayor que cumpla con los requisito</b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-6 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué ocurre si el CM Virtual se pierde o alguien se lo quita a la persona mayor?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>
+                    El dispositivo cuenta con un software de seguridad que permite que sólo pueda ser usado por la persona mayor asignada por el municipio. Si alguien intenta darle un uso diferente, el dispositivo se inutiliza automáticamente.
+Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través de algunos de nuestros canales, para que bloqueemos el dispositivo y protejamos la información personal de quien era su usuario.
+                  </b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-7 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué sucede cuando fallece un beneficiario?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>Cuando fallece un usuario del programa, el dispositivo celular es regresado a la municipalidad correspondiente y el equipo municipal lo asigna a otra persona mayor que sea vecino o vecina de la misma comuna y cumpla con todos los requisitos.</b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                <b-button class="text-left" block v-b-toggle.accordion-8 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
                   <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué pasa si un usuario quiere devolver el dispositivo?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>Si desea devolver el dispositivo, debe contactarse con su municipalidad para coordinar su devolución y solicitar que el aparato sea reasignado a otro beneficiario.</b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
 
             <b-card no-body class="mb-1 accordion-design">
               <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
-                <b-button class="text-left" block v-b-toggle.accordion-1 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
-                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Qué pasa si un usuario quiere devolver el dispositivo?</h1>
+                <b-button class="text-left" block v-b-toggle.accordion-9 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    Con el celular entregado por Conecta Mayor, ¿se pueden hacer llamadas internacionales?</h1>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse id="accordion-9" accordion="my-accordion" role="tabpanel">
                 <b-card-body style="background-color: #f1f1f180 !important;">
-                  <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-                  <b-card-text>{{ text }}</b-card-text>
+                  <b-card-text>A través de WhatsApp se pueden realizar llamadas y videollamadas a todo el mundo. En cambio, las llamadas telefónicas al extranjero usan un servicio que se llama roaming internacional, que tiene un alto costo para quien la realiza y por esta razón los dispositivos Conecta Mayor tienen bloqueado dicho servicio.</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-10 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cómo saber a quién le asignaron el beneficio?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-10" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>La identidad de los beneficiarios no puede darse a conocer debido a la ley de protección de datos personales (Ley N° 19.628).</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-11 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cómo saber cuántos dispositivos fueron entregados en mi comuna (o en otra de mi interés)?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-11" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>En esta misma página web, a través de la pestaña TRANSPARENCIA en la parte superior, se puede revisar el número de beneficiados y el avance de las entregas de cada una de las comunas inscritas, a lo largo de todo el país.</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-12 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Por qué hay comunas que no están inscritas para la entrega de beneficios?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-12" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>La Fundación invitó a todas las municipalidades del país a participar de este proyecto. Para más información sobre una comuna no inscrita, por favor, solicitamos comunicarse a través del formulario de CONTACTO en el menú principal.</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-13 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Es remunerado el Directorio de Conecta Mayor?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-13" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>No, los miembros del Directorio realizan una labor ad honorem, es decir, no reciben ningún pago. Lo mismo ocurre con el Consejo Asesor, consistente en expertos que apoyan gratuitamente el desarrollo de la Fundación.</b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+
+            <b-card no-body class="mb-1 accordion-design">
+              <b-card-header header-tag="header" class="p-1 text-left card-header-accordion" role="tab">
+                <b-button class="text-left" block v-b-toggle.accordion-14 variant="secondary" style="background-color: #ccc !important; border: none !important; padding-top: 10px !important; padding-bottom: 10px !important;">
+                  <h1 class="accordion-words"><strong><font class="plus-symbol-accordion">+</font></strong>    ¿Cuál es la relación del programa con SENAMA?</h1>
+                </b-button>
+              </b-card-header>
+              <b-collapse id="accordion-14" accordion="my-accordion" role="tabpanel">
+                <b-card-body style="background-color: #f1f1f180 !important;">
+                  <b-card-text>En el inicio de la campaña “Vamos Chilenos”, el Servicio Nacional del Adulto Mayor -SENAMA- fue un aliado para el diseño del programa. Además, se han beneficiado con el dispositivo usuarios de Centros Diurnos y Condominios de Vivienda Tuteladas de SENAMA que cumplen los requisitos de esta iniciativa.</b-card-text>
                 </b-card-body>
               </b-collapse>
             </b-card>
@@ -769,6 +828,9 @@
       }
     },
     methods: {
+      Iniciatives() {
+        window.location.href = "https://conectamayor.cl/nuestras-iniciativas/";
+      },
       onSlideStart(slide) {
         this.sliding = true
       },
