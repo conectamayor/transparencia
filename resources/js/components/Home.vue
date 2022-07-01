@@ -435,7 +435,7 @@
               Lee las memorias e informes FECU desde que comenzó Conecta Mayor.
             </h5>
             <h5 class="pt-2">
-              <center><b-button v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+              <center><b-button v-b-toggle.collapse-3 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
             </h5>
           </div>
           <div class="col-md-1">
@@ -444,6 +444,35 @@
         </div>
       </div>
     </div>
+    <b-collapse id="collapse-3">
+      <div class="section">
+        <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+        >
+          <b-carousel-slide>
+            <template #img>
+              <img
+                class="d-block img-fluid w-100"
+                width="1024"
+                height="480"
+                :src="'./frontend/assets/images/financial/slider.png'"
+                alt="image slot"
+              >
+            </template>
+
+            
+          </b-carousel-slide>
+        </b-carousel>
+      </div>
+    </b-collapse>
     <div class="section pt-5 pb-5 gray_ligth_section">
       <div class="container-fluid">
         <div class="row">
