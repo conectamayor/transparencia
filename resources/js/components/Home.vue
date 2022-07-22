@@ -298,15 +298,29 @@
       </div>
     </div>
     <b-collapse id="collapse-2">
-      <div class="section pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <img :src="'./frontend/assets/images/gochile/background.png'" class="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/gochile/background.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+      </b-carousel>
       <div class="section pb-5 blue_section">
         <div class="container-fluid">
           <div class="row">
