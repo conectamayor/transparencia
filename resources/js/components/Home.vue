@@ -1197,8 +1197,8 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     background-color: #2F397F !important;
   }
   .btn-circle.btn-sm.list-button {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     padding: 2px 0px;
     border-radius: 50px;
     font-size: 20px;
