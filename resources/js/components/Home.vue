@@ -1204,11 +1204,11 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     }
 
     .financial_font {
-      font-size: 12px;
+      font-size: 20px;
     }
 
     .memory_font {
-      font-size: 12px;
+      font-size: 20px;
     }
   }
   
