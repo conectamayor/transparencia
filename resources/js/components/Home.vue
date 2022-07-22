@@ -524,20 +524,20 @@
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2020 </h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
               <b-list-group-item href="#" class="memory_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2021</h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2022</h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -560,22 +560,22 @@
             
             <div class="col-md-6">
               <b-list-group>
-                <b-list-group-item href="#" class="financial_pair_list">
+                <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Auditoría 2020 - Final (emisión).pdf" target="_blank" class="financial_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2020</h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2021</h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2022</h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -1201,7 +1201,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     text-align: center;
     background-color: #2F397F !important;
   }
-  .btn-circle.btn-sm.list-button {
+  .btn-circle.btn-sm.memory-list-button {
     width: 40px;
     height: 40px;
     padding: 2px 0px;
@@ -1211,7 +1211,17 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     background-color: #fff !important;
     color: #F05C68;
   }
-
+  
+  .btn-circle.btn-sm.financial-button {
+    width: 40px;
+    height: 40px;
+    padding: 2px 0px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fff !important;
+    color: #2192C6;
+  }
   .numbers {
     font-size: 70px !important;
     font-family: 'Ubuntu', sans-serif;
