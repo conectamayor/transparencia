@@ -510,16 +510,18 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
-
+              <p class="small_white_letters">
+                En nuestras memorias anuales, podrás encontrar las metas, proyectos y resultados de nuestras actividades y operaciones durante cada año. También podrás encontrar información detallada sobre nuestros estados financieros auditados. Te invitamos a conocer más acerca de nuestros proyectos y cómo estamos impactando en la calidad de vida de las personas mayores.
+              </p>
             </div>
             
             <div class="col-md-6">
               <b-list-group>
                 <b-list-group-item href="#" class="no_pair_list">
-                  <div class="d-flex w-100 pull-right">
+                  <div class="d-flex w-100" style="text-align: right;">
                     <h2>Memoria 2021</h2>
-                    <small>3 days ago</small>
                   </div>
+                </b-list-group-item>
               </b-list-group>
             </div>
           </div>
