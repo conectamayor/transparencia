@@ -531,18 +531,16 @@
           </div>
         </div>
       </div>
-      
-    </b-collapse>
-    <div class="section pt-5 pb-5 blue_sea_section">
+      <div class="section pt-5 pb-5 blue_sea_section">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
               <h5 class="big_white_letters">
-                Memoria
+                Estados Financieros
               </h5>
               <br><br>
               <p class="small_white_letters">
-                En nuestras memorias anuales, podrás encontrar las metas, proyectos y resultados de nuestras actividades y operaciones durante cada año. También podrás encontrar información detallada sobre nuestros estados financieros auditados. Te invitamos a conocer más acerca de nuestros proyectos y cómo estamos impactando en la calidad de vida de las personas mayores.
+                En Conecta Mayor trabajamos por un uso eficiente y transparente de los recursos. En esta sección encontrarás los estados financieros de la Fundación de forma resumida y también podrás descarga el informe con todos lo detalles de estos.
               </p>
             </div>
             
