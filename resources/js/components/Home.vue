@@ -266,25 +266,34 @@
     </div>
     <b-collapse id="collapse-2">
       <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      :interval="4000"
-      background="#fff"
-      img-width="1024"
-      img-height="483"
-      style="text-shadow: 1px 1px 2px #333;"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
         <b-carousel-slide>
           <template #img>
             <img
               class="d-block img-fluid w-100"
-              width="100%"
-              height="460"
-              :src="'./frontend/assets/images/gochile/background.png'"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/slider/slider-1.png'"
+              alt="image slot"
             >
+            <div class="carousel-extra-content">
+              Transparencia
+            </div>
+            <div class="carousel-extra-content-p">
+              La transparencia es uno de los pilares centrales de Conecta Mayor. Creamos este portal para profundizar y mostrar los resultados y alcance de nuestros proyectos. También encontrarás el destino y administración de los recursos que financian nuestras nuevas iniciativas y la operación de la Fundación, siempre con nuestro compromiso principal de promover la inclusión de las personas mayores a través de la tecnología.
+            </div>
           </template>
+
+          
         </b-carousel-slide>
       </b-carousel>
       <div class="section pb-5 blue_section">
