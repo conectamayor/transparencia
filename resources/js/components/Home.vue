@@ -280,14 +280,14 @@
           <template #img>
             <img
               class="d-block img-fluid w-100"
-              width="1024"
+              width="100%"
               height="460"
               :src="'./frontend/assets/images/gochile/background.png'"
             >
           </template>
         </b-carousel-slide>
       </b-carousel>
-      <div class="section pt-5 pb-5 blue_section">
+      <div class="section pb-5 blue_section">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-3"></div>
