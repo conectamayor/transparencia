@@ -522,7 +522,7 @@
             <div class="col-md-6">
               <b-list-group>
                 <b-list-group-item href="#" class="memory_pair_list">
-                  <div class="d-flex w-100 float-right">
+                  <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2020</h2>
                   </div>
                 </b-list-group-item>
