@@ -546,9 +546,19 @@
             
             <div class="col-md-6">
               <b-list-group>
+                <b-list-group-item href="#" class="pair_list">
+                  <div class="d-flex w-100" style="text-align: right;">
+                    <h2>Memoria 2020</h2>
+                  </div>
+                </b-list-group-item>
                 <b-list-group-item href="#" class="no_pair_list">
                   <div class="d-flex w-100" style="text-align: right;">
                     <h2>Memoria 2021</h2>
+                  </div>
+                </b-list-group-item>
+                <b-list-group-item href="#" class="pair_list">
+                  <div class="d-flex w-100" style="text-align: right;">
+                    <h2>Memoria 2022</h2>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -1125,6 +1135,15 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
   }
   .no_pair_list {
     background: #f08891 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 70px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+  }
+  .pair_list {
+    background: #F05C68 0% 0% no-repeat padding-box;
     opacity: 1;
     height: 70px;
     color: #fff;
