@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Portal de la Fundación Conecta Mayor'),
+    'name' => env('APP_NAME', 'Portal de Transparencia de la Fundación Conecta Mayor'),
 
     /*
     |--------------------------------------------------------------------------

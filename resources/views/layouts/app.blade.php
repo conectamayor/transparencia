@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ config('app.name', 'Portal de Transparencia') }}</title>
+    <title>Portal de Transparencia de la Fundación Conecta Mayor</title>
 	<!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
 
