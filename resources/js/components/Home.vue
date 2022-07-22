@@ -226,7 +226,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/footer_sliders/slider1.png'"
+              :src="'./frontend/assets/images/social_impact/Grupo-93.png'"
               alt="image slot"
             >
           </template>
@@ -268,7 +268,7 @@
       <div class="section pb-5">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
               <img :src="'./frontend/assets/images/gochile/background.png'" class="img-fluid" />
             </div>
           </div>
