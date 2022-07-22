@@ -1165,7 +1165,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       color: #fff;
       font-family: 'Ubuntu', sans-serif;
       letter-spacing: 1.2px;
-      font-size: 20px;
+      font-size: 12px;
     }
     .memory_pair_list {
       background: #F05C68 0% 0% no-repeat padding-box;
@@ -1174,7 +1174,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       color: #fff;
       font-family: 'Ubuntu', sans-serif;
       letter-spacing: 1.2px;
-      font-size: 20px;
+      font-size: 12px;
     }
     .financial_no_pair_list {
       background: #89d6fa 0% 0% no-repeat padding-box;
@@ -1183,7 +1183,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       color: #fff;
       font-family: 'Ubuntu', sans-serif;
       letter-spacing: 1.2px;
-      font-size: 20px;
+      font-size: 12px;
     }
     .financial_pair_list {
       background: #2192C6 0% 0% no-repeat padding-box;
@@ -1192,7 +1192,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       color: #fff;
       font-family: 'Ubuntu', sans-serif;
       letter-spacing: 1.2px;
-      font-size: 20px;
+      font-size: 12px;
     }
   }
   
