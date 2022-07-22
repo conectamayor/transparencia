@@ -515,7 +515,11 @@
             
             <div class="col-md-6">
               <b-list-group>
-                <b-list-group-item href="#" class="no_pair_list">Memoria 2021 <b-badge variant="primary" pill>></b-badge></b-list-group-item>
+                <b-list-group-item href="#" class="no_pair_list">
+                  <div class="d-flex w-100 pull-right">
+                    <h2>Memoria 2021</h2>
+                    <small>3 days ago</small>
+                  </div>
               </b-list-group>
             </div>
           </div>
