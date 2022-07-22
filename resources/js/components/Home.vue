@@ -523,20 +523,20 @@
               <b-list-group>
                 <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2020 [FINAL].pdf" target="_blank" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2020 </h2>&nbsp;
+                    <h2 class="memory_font">Memoria 2020 </h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
               <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2021-final.pdf" target="_blank" class="memory_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2021</h2>&nbsp;
+                    <h2 class="memory_font">Memoria 2021</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2022</h2>&nbsp;
+                    <h2 class="memory_font">Memoria 2022</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
@@ -562,19 +562,19 @@
               <b-list-group>
                 <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Auditoría 2020 - Final (emisión).pdf" target="_blank" class="financial_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Estados Financieros 2020</h2>&nbsp;
+                    <h2 class="financial_font">Estados Financieros 2020</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Auditoría 2021 - Final (emisión).pdf" target="_blank" class="financial_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Estados Financieros 2021</h2>&nbsp;
+                    <h2 class="financial_font">Estados Financieros 2021</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Estados Financieros 2022</h2>&nbsp;
+                    <h2 class="financial_font">Estados Financieros 2022</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
@@ -1106,6 +1106,14 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       letter-spacing: 1.2px;
       font-size: 30px;
     }
+
+    .financial_font {
+      font-size: 30px;
+    }
+
+    .memory_font {
+      font-size: 30px;
+    }
   }
 
   @media (max-width: 575px) {
@@ -1192,6 +1200,14 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       color: #fff;
       font-family: 'Ubuntu', sans-serif;
       letter-spacing: 1.2px;
+      font-size: 12px;
+    }
+
+    .financial_font {
+      font-size: 12px;
+    }
+
+    .memory_font {
       font-size: 12px;
     }
   }
