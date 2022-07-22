@@ -506,6 +506,37 @@
           </b-carousel-slide>
         </b-carousel>
       </div>
+      <div class="section pt-5 pb-5 gray_ligth_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4">
+              <img :src="'./frontend/assets/images/gochile/products.jpg'" class="img-fluid" style="border-radius: 25px;" />
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            
+            <div class="col-md-4">
+              <h5 class="big_blue_letters">
+                Kit de insumos y alimentos
+              </h5>
+              <h5 class="small_blue_letters">
+                Adicionalmente, las 80.000 personas mayores beneficiadas recibieron dos cajas de alimentos y artículos de aseo para el hogar e higiene personal, lo que busca dar un apoyo adicional para paliar parte de los problemas que se han presentado durante la pandemia.
+              </h5>
+              <h5 class="pt-2">
+                <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> de entregas</button></center>
+              </h5>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </b-collapse>
     <div class="section pt-5 pb-5 gray_ligth_section">
       <div class="container-fluid">
