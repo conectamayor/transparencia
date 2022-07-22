@@ -523,19 +523,21 @@
               <b-list-group>
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2020 </h2>
+                    <h2>Memoria 2020 </h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
               <b-list-group-item href="#" class="memory_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2021</h2>
+                    <h2>Memoria 2021</h2>&nbsp;
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2022</h2>
+                    <h2>Memoria 2022</h2>&nbsp;
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -560,17 +562,20 @@
               <b-list-group>
                 <b-list-group-item href="#" class="financial_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Estados Financieros 2020</h2>
+                    <h2>Estados Financieros 2020</h2>&nbsp;
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Estados Financieros 2021</h2>
+                    <h2>Estados Financieros 2021</h2>&nbsp;
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Estados Financieros 2022</h2>
+                    <h2>Estados Financieros 2022</h2>&nbsp;
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
