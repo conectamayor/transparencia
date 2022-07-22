@@ -515,15 +515,7 @@
             
             <div class="col-md-6">
               <b-list-group>
-                <b-list-group-item href="#">Default list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="primary">Primary list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="secondary">Secondary list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="success">Success list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="danger">Danger list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="warning">Warning list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="info">Info list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="light">Light list group item</b-list-group-item>
-                <b-list-group-item href="#" variant="dark">Dark list group item</b-list-group-item>
+                <b-list-group-item href="#" class="no_pair_list">Memoria 2021 <b-badge variant="primary" pill>></b-badge></b-list-group-item>
               </b-list-group>
             </div>
           </div>
@@ -1092,6 +1084,10 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
   }
   .pink_section {
     background: #F05C68;
+  }
+  .no_pair_list {
+    background: #F05C68 0% 0% no-repeat padding-box;
+    opacity: 1;
   }
   .blue_ligth_section {
     background: #2769dc80;
