@@ -521,9 +521,20 @@
             
             <div class="col-md-6">
               <b-list-group>
-                <b-list-group-item href="#" class="no_pair_list">
+                <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100">
+                    <h2>Memoria 2020</h2>
+                  </div>
+                </b-list-group-item>
+              </b-list-group>
+              <b-list-group-item href="#" class="memory_no_pair_list">
+                  <div class="d-flex w-100" style="text-align: right;">
                     <h2>Memoria 2021</h2>
+                  </div>
+                </b-list-group-item>
+                <b-list-group-item href="#" class="memory_pair_list">
+                  <div class="d-flex w-100" style="text-align: right;">
+                    <h2>Memoria 2022</h2>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -546,19 +557,19 @@
             
             <div class="col-md-6">
               <b-list-group>
-                <b-list-group-item href="#" class="pair_list">
+                <b-list-group-item href="#" class="financial_pair_list">
                   <div class="d-flex w-100" style="text-align: right;">
-                    <h2>Memoria 2020</h2>
+                    <h2>Estados Financieros 2020</h2>
                   </div>
                 </b-list-group-item>
-                <b-list-group-item href="#" class="no_pair_list">
+                <b-list-group-item href="#" class="financial_no_pair_list">
                   <div class="d-flex w-100" style="text-align: right;">
-                    <h2>Memoria 2021</h2>
+                    <h2>Estados Financieros 2021</h2>
                   </div>
                 </b-list-group-item>
-                <b-list-group-item href="#" class="pair_list">
+                <b-list-group-item href="#" class="financial_pair_list">
                   <div class="d-flex w-100" style="text-align: right;">
-                    <h2>Memoria 2022</h2>
+                    <h2>Estados Financieros 2022</h2>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -1133,7 +1144,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
   .pink_section {
     background: #F05C68;
   }
-  .no_pair_list {
+  .memory_no_pair_list {
     background: #f08891 0% 0% no-repeat padding-box;
     opacity: 1;
     height: 70px;
@@ -1142,8 +1153,26 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     letter-spacing: 1.2px;
     font-size: 30px;
   }
-  .pair_list {
+  .memory_pair_list {
     background: #F05C68 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 70px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+  }
+  .financial_no_pair_list {
+    background: #89d6fa 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 70px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+  }
+  .financial_pair_list {
+    background: #2192C6 0% 0% no-repeat padding-box;
     opacity: 1;
     height: 70px;
     color: #fff;
