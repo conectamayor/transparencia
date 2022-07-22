@@ -523,7 +523,8 @@
               <b-list-group>
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
-                    <h2>Memoria 2020</h2>
+                    <h2>Memoria 2020 </h2>
+                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
@@ -1194,6 +1195,16 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     font-size: 40px;
     text-align: center;
     background-color: #2F397F !important;
+  }
+  .btn-circle.btn-sm.list-button {
+    width: 20px;
+    height: 20px;
+    padding: 2px 0px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fff !important;
+    color: #F05C68;
   }
 
   .numbers {
