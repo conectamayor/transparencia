@@ -528,12 +528,12 @@
                 </b-list-group-item>
               </b-list-group>
               <b-list-group-item href="#" class="memory_no_pair_list">
-                  <div class="d-flex w-100" style="text-align: right;">
+                  <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2021</h2>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="memory_pair_list">
-                  <div class="d-flex w-100" style="text-align: right;">
+                  <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2022</h2>
                   </div>
                 </b-list-group-item>
@@ -558,17 +558,17 @@
             <div class="col-md-6">
               <b-list-group>
                 <b-list-group-item href="#" class="financial_pair_list">
-                  <div class="d-flex w-100" style="text-align: right;">
+                  <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2020</h2>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_no_pair_list">
-                  <div class="d-flex w-100" style="text-align: right;">
+                  <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2021</h2>
                   </div>
                 </b-list-group-item>
                 <b-list-group-item href="#" class="financial_pair_list">
-                  <div class="d-flex w-100" style="text-align: right;">
+                  <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2022</h2>
                   </div>
                 </b-list-group-item>
