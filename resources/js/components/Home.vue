@@ -511,7 +511,34 @@
           <div class="row">
             <div class="col-md-6">
               <h5 class="big_white_letters">
-                Impacto Celulares CM
+                Memoria
+              </h5>
+              <br><br>
+              <p class="small_white_letters">
+                En nuestras memorias anuales, podrás encontrar las metas, proyectos y resultados de nuestras actividades y operaciones durante cada año. También podrás encontrar información detallada sobre nuestros estados financieros auditados. Te invitamos a conocer más acerca de nuestros proyectos y cómo estamos impactando en la calidad de vida de las personas mayores.
+              </p>
+            </div>
+            
+            <div class="col-md-6">
+              <b-list-group>
+                <b-list-group-item href="#" class="no_pair_list">
+                  <div class="d-flex w-100" style="text-align: right;">
+                    <h2>Memoria 2021</h2>
+                  </div>
+                </b-list-group-item>
+              </b-list-group>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </b-collapse>
+    <div class="section pt-5 pb-5 blue_sea_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="big_white_letters">
+                Memoria
               </h5>
               <br><br>
               <p class="small_white_letters">
@@ -1091,6 +1118,9 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
   }
   .gray_ligth_section {
     background: #f1f1f180;
+  }
+  .blue_sea_section {
+    background: #2192C6;
   }
   .pink_section {
     background: #F05C68;
