@@ -1070,6 +1070,42 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       background-color: #ccc !important; 
       height: 95px !important;
     }
+    .memory_no_pair_list {
+      background: #f08891 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 30px;
+    }
+    .memory_pair_list {
+      background: #F05C68 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 30px;
+    }
+    .financial_no_pair_list {
+      background: #89d6fa 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 30px;
+    }
+    .financial_pair_list {
+      background: #2192C6 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 30px;
+    }
   }
 
   @media (max-width: 575px) {
@@ -1121,6 +1157,43 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     .card-header-accordion {
       background-color: #ccc !important; 
     }
+
+    .memory_no_pair_list {
+      background: #f08891 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 20px;
+    }
+    .memory_pair_list {
+      background: #F05C68 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 20px;
+    }
+    .financial_no_pair_list {
+      background: #89d6fa 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 20px;
+    }
+    .financial_pair_list {
+      background: #2192C6 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 70px;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 20px;
+    }
   }
   
   .pt-6 {
@@ -1149,42 +1222,6 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
   }
   .pink_section {
     background: #F05C68;
-  }
-  .memory_no_pair_list {
-    background: #f08891 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 70px;
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 30px;
-  }
-  .memory_pair_list {
-    background: #F05C68 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 70px;
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 30px;
-  }
-  .financial_no_pair_list {
-    background: #89d6fa 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 70px;
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 30px;
-  }
-  .financial_pair_list {
-    background: #2192C6 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 70px;
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 30px;
   }
   .blue_ligth_section {
     background: #2769dc80;
