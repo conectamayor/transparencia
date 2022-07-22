@@ -1086,8 +1086,9 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     background: #F05C68;
   }
   .no_pair_list {
-    background: #F05C68 0% 0% no-repeat padding-box;
+    background: #f08891 0% 0% no-repeat padding-box;
     opacity: 1;
+    height: 70px;
   }
   .blue_ligth_section {
     background: #2769dc80;
