@@ -282,7 +282,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/slider/slider-1.png'"
+              :src="'./frontend/assets/images/gochile/background.png'"
               alt="image slot"
             >
             <div class="carousel-extra-content">
