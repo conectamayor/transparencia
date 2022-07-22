@@ -523,7 +523,15 @@
               <b-list-group>
                 <b-list-group-item href="#" class="memory_pair_list">
                   <div class="d-flex w-100">
-                    <h2>Memoria 2020</h2>
+                    <div class="row">
+                      <div class="col-md-8">
+
+                      </div>
+                      <div class="col-md-4">
+                        <h2>Memoria 2020</h2>
+                      </div>
+                    </div>
+                    
                   </div>
                 </b-list-group-item>
               </b-list-group>
