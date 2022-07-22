@@ -277,14 +277,7 @@
       @sliding-end="onSlideEnd"
     >
         <b-carousel-slide>
-          <template #img>
-            <img
-              class="d-block img-fluid w-100"
-              width="1024"
-              height="480"
-              :src="'./frontend/assets/images/gochile/background.png'"
-            >
-          </template>
+
         </b-carousel-slide>
       </b-carousel>
       <div class="section pt-5 pb-5 blue_section">
