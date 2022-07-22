@@ -506,7 +506,7 @@
           </b-carousel-slide>
         </b-carousel>
       </div>
-      <div class="section pt-5 pb-5 gray_ligth_section">
+      <div class="section pt-5 pb-5 pink_section">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-1">
@@ -1096,6 +1096,9 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
   }
   .gray_ligth_section {
     background: #f1f1f180;
+  }
+  .pink_section {
+    background: #F05C68;
   }
   .blue_ligth_section {
     background: #2769dc80;
