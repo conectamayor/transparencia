@@ -521,14 +521,14 @@
             
             <div class="col-md-6">
               <b-list-group>
-                <b-list-group-item href="#" class="memory_pair_list">
+                <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2020 [FINAL].pdf" target="_blank" class="memory_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2020 </h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
               </b-list-group>
-              <b-list-group-item href="#" class="memory_no_pair_list">
+              <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2021-final.pdf" target="_blank" class="memory_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Memoria 2021</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
@@ -566,7 +566,7 @@
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
-                <b-list-group-item href="#" class="financial_no_pair_list">
+                <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Auditoría 2021 - Final (emisión).pdf" target="_blank" class="financial_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2>Estados Financieros 2021</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
@@ -1212,7 +1212,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     color: #F05C68;
   }
   
-  .btn-circle.btn-sm.financial-button {
+  .btn-circle.btn-sm.financial-list-button {
     width: 40px;
     height: 40px;
     padding: 2px 0px;
