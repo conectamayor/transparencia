@@ -1,0 +1,86 @@
+.numbers {
+    font-size: 70px !important;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2F397F;
+    font-weight: bold;
+}
+
+.numbers_title {
+    font-size: 20px !important;
+    color: #2F397F;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.numbers_title_space {
+    margin-top: -20px !important;
+}
+
+.social_impact_letters {
+    font-size: 55px !important;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2F397F;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.social_impact_section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #90b5f5 0% 0% no-repeat padding-box;
+}
+
+.btn-circle.btn-sm {
+    width: 65px;
+    height: 65px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #2F397F !important;
+}
+
+.integration_section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+}
+
+.integration_description {
+    font-size: 20px;
+    color: #737373;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.btn-circle.btn-sm.first_integration_button {
+    width: 270px;
+    height: 65px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #2768DC !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+}
+
+.btn-circle.btn-sm.second_integration_button {
+    width: 270px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #2768DC !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+}
+
+.footer-top {
+    background-color: #D8D5BF !important;
+}
+
+.footer-bottom {
+    background-color: #AEC1BA !important;
+}
