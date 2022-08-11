@@ -220,7 +220,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/social_impact/Grupo-93.png'"
+              :src="'./frontend/assets/images/social_impact/Grupo 100.jpg'"
               alt="image slot"
             >
           </template>
@@ -231,7 +231,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/social_impact/Grupo-94.png'"
+              :src="'./frontend/assets/images/social_impact/Grupo 102.jpg'"
               alt="image slot"
             >
           </template>
@@ -242,7 +242,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/social_impact/Grupo-95.png'"
+              :src="'./frontend/assets/images/social_impact/Grupo 103.jpg'"
               alt="image slot"
             >
           </template>
@@ -253,7 +253,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/social_impact/Grupo-96.png'"
+              :src="'./frontend/assets/images/social_impact/Grupo 104.jpg'"
               alt="image slot"
             >
           </template>
