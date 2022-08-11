@@ -17,15 +17,9 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            :src="'./frontend/assets/images/slider/slider-1.png'"
+            :src="'./frontend/assets/images/slider/Hero-1.png'"
             alt="image slot"
           >
-          <div class="carousel-extra-content">
-            Transparencia
-          </div>
-          <div class="carousel-extra-content-p">
-            La transparencia es uno de los pilares centrales de Conecta Mayor. Creamos este portal para profundizar y mostrar los resultados y alcance de nuestros proyectos. También encontrarás el destino y administración de los recursos que financian nuestras nuevas iniciativas y la operación de la Fundación, siempre con nuestro compromiso principal de promover la inclusión de las personas mayores a través de la tecnología.
-          </div>
         </template>
 
         
@@ -38,7 +32,7 @@
 
           </div>
           <div class="col-md-4">
-            <img :src="'./frontend/assets/images/social_impact/main.jpg'" class="img-fluid" />22
+            <img :src="'./frontend/assets/images/social_impact/main.jpg'" class="img-fluid" />
           </div>
           <div class="col-md-1">
 
