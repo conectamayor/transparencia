@@ -154,7 +154,11 @@
               
             </div>
             <div class="col-md-4 text-justify">
-              <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+              <img
+                class="img-fluid"
+                :src="'./frontend/assets/images/social_impact/400x400 impacto CM.png'"
+                alt="image slot"
+              >
             </div>
             <div class="col-md-1">
 
@@ -169,6 +173,11 @@
 
             </div>
             <div class="col-md-4">
+              <img
+                class="img-fluid"
+                :src="'./frontend/assets/images/social_impact/grafico motivos.png'"
+                alt="image slot"
+              >
               <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
             </div>
             <div class="col-md-1">
