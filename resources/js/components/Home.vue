@@ -393,7 +393,7 @@
               <br>
               <br>
               <h5>
-                <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Informe de transparencia <br> "Vamos Chilenos"</button></center>
+                <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Informe Transparencia - Vamos Chilenos 2020-2021.pdf" target="_blank"  class="btn btn-secondary btn-circle btn-sm second_integration_button">Informe de transparencia <br> "Vamos Chilenos"</a></center>
               </h5>
             </div>
             <div class="col-md-1">
