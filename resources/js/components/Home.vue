@@ -100,7 +100,7 @@
               </p>
               <center><button @click="Iniciatives()" type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
               <br>
-              <center><button type="button" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> la evaluación de impacto</button></center>
+              <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Hallazgos a un año del programa CM (1) (2).pdf" target="_blank" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> la evaluación de impacto</a></center>
             </div>
             <div class="col-md-1">
 
@@ -517,13 +517,13 @@
             
             <div class="col-md-6">
                 <b-list-group>
-                  <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2020 [FINAL].pdf" target="_blank" class="memory_pair_list">
+                  <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Memoria CM 2020-2021.pdf" target="_blank" class="memory_pair_list">
                     <div class="d-flex w-100 justify-content-end">
                       <h2 class="memory_font">Memoria 2020 </h2>&nbsp;
                       <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                     </div>
                   </b-list-group-item>
-                  <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2021-final.pdf" target="_blank" class="memory_no_pair_list">
+                  <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Memoria CM 2020-2021.pdf" target="_blank" class="memory_no_pair_list">
                     <div class="d-flex w-100 justify-content-end">
                       <h2 class="memory_font">Memoria 2021</h2>&nbsp;
                       <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
