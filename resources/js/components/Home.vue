@@ -340,11 +340,16 @@
                   <h1 class="go-chile-card-title text-center">
                     Entrega de dispositivos por municipalidad
                   </h1>
-                  <center><b-button v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
+                  <center><b-button v-on:click="togglePowerBiGoChile" variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
                 </b-card-text>
               </b-card>
             </div>
             <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <iframe title="PBi Publico (1)" width="100%" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwZjZlZTMtMTM5YS00ZjNmLTgzNmItODMxMWY1YmVmNTA5IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -1016,6 +1021,13 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       }
     },
     methods: {
+      togglePowerBiGoChile() {
+        if(this.vamos_chilenos_open == 1) {
+          this.vamos_chilenos_open = 0;
+        } else {
+          this.vamos_chilenos_open = 1;
+        }
+      },
       changeArrowVamosChilenos() {
         if(this.vamos_chilenos_open == 1) {
           this.vamos_chilenos_open = 0;
