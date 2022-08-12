@@ -178,7 +178,6 @@
                 :src="'./frontend/assets/images/social_impact/graficomotivos.png'"
                 alt="image slot"
               >
-              <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
             </div>
             <div class="col-md-1">
 
@@ -201,7 +200,7 @@
           </div>
           <div class="row text-center">
             <div class="col-md-12">
-              <img :src="'https://via.placeholder.com/600x200/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+              <img :src="'./frontend/assets/images/social_impact/600x200impactosocial.png'" class="img-fluid" />
             </div>
           </div>
         </div>
