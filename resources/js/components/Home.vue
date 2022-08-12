@@ -148,7 +148,7 @@
 
             </div>
             <div class="col-md-4">
-              <img :src="'./frontend/assets/images/social_impact/Graficosimpacto-03'" class="img-fluid" />
+              <img :src="'./frontend/assets/images/social_impact/Graficosimpacto-03.png'" class="img-fluid" />
             </div>
             <div class="col-md-1">
               
