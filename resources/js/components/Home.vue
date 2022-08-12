@@ -346,9 +346,9 @@
             </div>
             <div class="col-md-3"></div>
           </div>
-          <div class="row" v-show="value2">
+          <div class="row" v-show="value2" style="margin-top 20px;">
             <div class="col-md-12">
-              <iframe title="PBi Publico (1)" width="100%" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwZjZlZTMtMTM5YS00ZjNmLTgzNmItODMxMWY1YmVmNTA5IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+              <iframe title="PBi Publico (1)" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwZjZlZTMtMTM5YS00ZjNmLTgzNmItODMxMWY1YmVmNTA5IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
             </div>
           </div>
         </div>
