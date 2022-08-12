@@ -175,7 +175,7 @@
             <div class="col-md-4">
               <img
                 class="img-fluid"
-                :src="'./frontend/assets/images/social_impact/grafico motivos.png'"
+                :src="'./frontend/assets/images/social_impact/graficomotivos.png'"
                 alt="image slot"
               >
               <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
