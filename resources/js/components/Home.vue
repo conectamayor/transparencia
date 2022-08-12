@@ -386,7 +386,7 @@
               <h5 class="go-chile-resources-title">
                 Gestión de Recursos “Vamos Chilenos”
               </h5>
-              <img :src="'http://via.placeholder.com/400x400'" class="img-fluid" style="border-radius: 25px;" />
+              <img :src="'./frontend/assets/images/gochile/ejecución presupuestaria-03.png'"  class="img-fluid" style="border-radius: 25px;" />
             </div>
             <div class="col-md-1">
 
