@@ -148,7 +148,7 @@
 
             </div>
             <div class="col-md-4">
-              <img :src="'https://via.placeholder.com/400x400/CCC/808080%20?Text=Digital.com'" class="img-fluid" />
+              <img :src="'./frontend/assets/images/social_impact/Graficosimpacto-03'" class="img-fluid" />
             </div>
             <div class="col-md-1">
               
