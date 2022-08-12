@@ -325,7 +325,7 @@
       </b-carousel>
       <div class="section pb-5 blue_section">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row" v-show="value1">
             <div class="col-md-3"></div>
             <div class="col-md-6">
               <b-card
@@ -346,9 +346,9 @@
             </div>
             <div class="col-md-3"></div>
           </div>
-          <div class="row">
+          <div class="row" v-show="value2">
             <div class="col-md-12">
-              <iframe title="PBi Publico (1)" width="100%" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwZjZlZTMtMTM5YS00ZjNmLTgzNmItODMxMWY1YmVmNTA5IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+              <iframe title="PBi Publico (1)" width="100%" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwZjZlZTMtMTM5YS00ZjNmLTgzNmItODMxMWY1YmVmNTA5IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
             </div>
           </div>
         </div>
@@ -1017,16 +1017,15 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
         vamos_chilenos_open: 0,
         impacto_social_open: 0,
         estado_financiero_open: 0,
-        preguntas_frecuentes_open: 0
+        preguntas_frecuentes_open: 0,
+        value1: true,
+        value2: false
       }
     },
     methods: {
       togglePowerBiGoChile() {
-        if(this.vamos_chilenos_open == 1) {
-          this.vamos_chilenos_open = 0;
-        } else {
-          this.vamos_chilenos_open = 1;
-        }
+        this.value1 = false;
+        this.value2 = true;
       },
       changeArrowVamosChilenos() {
         if(this.vamos_chilenos_open == 1) {
