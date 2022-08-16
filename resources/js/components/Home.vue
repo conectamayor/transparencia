@@ -1056,7 +1056,10 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
         }
       },
       Iniciatives() {
-        window.location.href = "https://conectamayor.cl/nuestras-iniciativas/";
+        window.open(
+          'https://conectamayor.cl/nuestras-iniciativas/',
+          '_blank'
+        );
       },
       onSlideStart(slide) {
         this.sliding = true
