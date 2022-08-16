@@ -317,7 +317,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/gochile/background.png'"
+              :src="'./frontend/assets/images/gochile/Grupo-88.png'"
               alt="image slot"
             >
           </template>
@@ -415,7 +415,7 @@
           </div>
         </div>
       </div>
-      <div class="section pt-5 pb-5 gray_ligth_section">
+      <div class="section pt-5 pb-5 gray_ligth_section" style="display: none;">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
