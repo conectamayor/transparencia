@@ -1084,7 +1084,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
           this.impacto_social_open = 0;
           this.preguntas_frecuentes_open = 0;
 
-          window.scrollTo(0, 2100);
+          window.scrollTo(0, 1500);
         }
       },
       changeArrowPreguntasFrecuentes() {
