@@ -1053,18 +1053,19 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
         this.value1 = false;
         this.value2 = true;
       },
-      changeArrowVamosChilenos() {
-        if(this.vamos_chilenos_open == 1) {
-          this.vamos_chilenos_open = 0;
-        } else {
-          this.vamos_chilenos_open = 1;
-        }
-      },
       changeArrowImpactoSocial() {
         if(this.impacto_social_open == 1) {
           this.impacto_social_open = 0;
         } else {
           this.impacto_social_open = 1;
+          this.vamos_chilenos_open = 0;
+        }
+      },
+      changeArrowVamosChilenos() {
+        if(this.vamos_chilenos_open == 1) {
+          this.vamos_chilenos_open = 0;
+        } else {
+          this.vamos_chilenos_open = 1;
         }
       },
       changeArrowEstadoFinanciero() {
