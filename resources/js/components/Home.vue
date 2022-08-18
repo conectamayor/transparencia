@@ -689,7 +689,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-4" accordion="my-accordion">
+    <b-collapse id="collapse-4" accordion="my-accordion2">
       <div class="section pt-5 pb-5 gray_ligth_section">
         <div class="container-fluid">
           <div class="faq_accordion" role="tablist">
