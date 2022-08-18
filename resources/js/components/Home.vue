@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-1" accordion="my-accordion">
+    <b-collapse id="collapse-1" accordion="my-accordion2">
       <div class="section about-feature-bg section-padding">
         <div class="container-fluid">
           <div class="row text-center">
@@ -299,7 +299,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-2" accordion="my-accordion">
+    <b-collapse id="collapse-2" accordion="my-accordion2">
       <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -485,7 +485,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-3" accordion="my-accordion">
+    <b-collapse id="collapse-3" accordion="my-accordion2">
       <div class="section">
         <b-carousel
         id="carousel-1"
