@@ -1067,6 +1067,8 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
         } else {
           this.vamos_chilenos_open = 1;
           this.impacto_social_open = 0;
+
+          window.scrollTo(0, 10);
         }
       },
       changeArrowEstadoFinanciero() {
