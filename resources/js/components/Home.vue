@@ -473,7 +473,7 @@
               Estados Financieros y Memorias
             </h5>
             <h5 class="small_blue_letters">
-              En Conecta Mayor trabajamos por un uso eficiente y transparente de los recursos. En esta sección encontrarás los documentos que resumen los proyectos realizados por la Fundación, sus estados financieros de forma resumida, y también podrás descargar el informe detallado de la gestión detalles de los recursos.
+              Lee las memorias e informes FECU desde que comenzó Conecta Mayor.
             </h5>
             <h5 class="pt-2">
               <center><b-button v-on:click="changeArrowEstadoFinanciero"  v-b-toggle.collapse-3 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i v-if="estado_financiero_open == 0" class="fa-solid fa-angle-right"></i><i v-if="estado_financiero_open == 1" class="fa-solid fa-angle-down"></i></b-button></center>
