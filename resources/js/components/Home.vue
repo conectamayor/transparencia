@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-1">
+    <b-collapse id="collapse-1" data-parent="#myGroup">
       <div class="section about-feature-bg section-padding">
         <div class="container-fluid">
           <div class="row text-center">
@@ -299,7 +299,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-2">
+    <b-collapse id="collapse-2" data-parent="#myGroup">
       <b-carousel
         id="carousel-1"
         v-model="slide"
