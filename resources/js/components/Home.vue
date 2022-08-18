@@ -485,7 +485,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-3">
+    <b-collapse id="collapse-3" accordion="my-accordion">
       <div class="section">
         <b-carousel
         id="carousel-1"
@@ -689,7 +689,7 @@
         </div>
       </div>
     </div>
-    <b-collapse id="collapse-4">
+    <b-collapse id="collapse-4" accordion="my-accordion">
       <div class="section pt-5 pb-5 gray_ligth_section">
         <div class="container-fluid">
           <div class="faq_accordion" role="tablist">
@@ -1059,6 +1059,8 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
         } else {
           this.impacto_social_open = 1;
           this.vamos_chilenos_open = 0;
+          this.estado_financiero_open = 0;
+          this.preguntas_frecuentes_open = 0;
         }
       },
       changeArrowVamosChilenos() {
@@ -1067,6 +1069,8 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
         } else {
           this.vamos_chilenos_open = 1;
           this.impacto_social_open = 0;
+          this.estado_financiero_open = 0;
+          this.preguntas_frecuentes_open = 0;
 
           window.scrollTo(0, 1100);
         }
@@ -1076,6 +1080,11 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
           this.estado_financiero_open = 0;
         } else {
           this.estado_financiero_open = 1;
+          this.vamos_chilenos_open = 0;
+          this.impacto_social_open = 0;
+          this.preguntas_frecuentes_open = 0;
+
+          window.scrollTo(0, 2100);
         }
       },
       changeArrowPreguntasFrecuentes() {
@@ -1083,6 +1092,9 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
           this.preguntas_frecuentes_open = 0;
         } else {
           this.preguntas_frecuentes_open = 1;
+          this.vamos_chilenos_open = 0;
+          this.impacto_social_open = 0;
+          this.estado_financiero_open = 0;
         }
       },
       Iniciatives() {
