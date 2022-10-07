@@ -42,7 +42,7 @@
               Impacto Social
             </h5>
             <h5 class="small_blue_letters">
-              ¡Conoce cómo impactan nuestros proyectos a mejorar la calidad de vida de las personas mayores!
+              Conoce cómo impactan nuestros proyectos mejora la calidad de vida de personas mayores.
             </h5>
             <h5 class="pt-2">
               <center><b-button v-on:click="changeArrowImpactoSocial" v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i v-if="impacto_social_open == 0" class="fa-solid fa-angle-right"></i><i v-if="impacto_social_open == 1" class="fa-solid fa-angle-down"></i></b-button></b-button></center>
@@ -60,10 +60,10 @@
           <div class="row text-center">
             <div class="col-md-4">
               <h1 class="numbers">
-                80.000
+                78.864
               </h1>
               <h1 class="small_blue_letters">
-                Beneficiarios de Conecta Mayor
+                Personas mayores de todo Chile conectadas gratuitamente
               </h1>
             </div>
             <div class="col-md-4">
@@ -71,7 +71,7 @@
                 336
               </h1>
               <h1 class="small_blue_letters">
-                Municipalidades trabajando con Conecta Mayor
+                Municipalidades trabajando con nosotros
               </h1>
             </div>
             <div class="col-md-4">
@@ -79,7 +79,7 @@
                 8.000
               </h1>
               <h1 class="small_blue_letters">
-                Personas mayores usan frecuentemente el servicio para conversar todos los días de la semana
+                Personas usan frecuentemente nuestro servicio de acompañamiento, disponible para conversar todos los días de la semana
               </h1>
             </div>
           </div>
@@ -93,10 +93,10 @@
             </div>
             <div class="col-md-4 text-justify">
               <p class="small_gray_letters">
-                En Conecta Mayor buscamos promover la integración social de las personas mayores a través de iniciativas, estudios y programas que permitan conectarlos, visibilizarlos y brindarles compañía, además de favorecer su inclusión digital.
+                En Conecta Mayor promovemos la integración social de las personas mayores a través de iniciativas, que permiten conectarlas, visibilizarlas y brindarles compañía, además de favorecer su inclusión digital.
               </p>
               <p class="small_gray_letters">
-                A través de estas iniciativas y proyectos, buscamos impactar y generar cambios positivos en la calidad de vida de los mayores. En esta sección encontrarás los resultados obtenidos hasta el momento ¡Te invitamos a conocer todas nuestras iniciativas!
+                A través de nuestro trabajo, buscamos impactar y generar cambios positivos en su calidad de vida. <br><br>En esta sección encontrarás los resultados obtenidos hasta el momento ¡Te invitamos a conocer todas nuestras iniciativas!
               </p>
               <center><button @click="Iniciatives()" type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
               <br>
@@ -473,7 +473,7 @@
               Estados Financieros y Memorias
             </h5>
             <h5 class="small_blue_letters">
-              Lee las memorias e informes FECU desde que comenzó Conecta Mayor.
+              Revisa las memorias anuales e informes FECU históricos de Conecta Mayor.
             </h5>
             <h5 class="pt-2">
               <center><b-button v-on:click="changeArrowEstadoFinanciero"  v-b-toggle.collapse-3 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i v-if="estado_financiero_open == 0" class="fa-solid fa-angle-right"></i><i v-if="estado_financiero_open == 1" class="fa-solid fa-angle-down"></i></b-button></center>
