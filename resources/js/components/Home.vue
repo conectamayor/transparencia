@@ -234,7 +234,7 @@
         </b-carousel-slide>
         <b-carousel-slide>
           <template #img>
-            <a href="https://conectamayor.cl/blog/"></a>
+            <a href="https://conectamayor.cl/blog/">
               <img
                 class="d-block img-fluid w-100"
                 width="1024"
