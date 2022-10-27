@@ -244,7 +244,7 @@
         <b-carousel-slide>
           
             <template #img>
-              <a href="httpa://google.com">
+              <a href="https://google.com">
                 <img
                   class="d-block img-fluid w-100"
                   width="1024"
