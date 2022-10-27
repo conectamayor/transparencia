@@ -133,10 +133,7 @@
               </h5>
               <br><br>
               <p class="small_white_letters">
-                Los celulares Conecta Mayor son dispositivos diseñados especialmente para ser usado por personas mayores. Disponen de un software que facilita la interfaz para el beneficiario conectándolo con sus redes de apoyo y locales y, también cuentan con botones predeterminados para diferentes necesidades de conexión, información y entretenimiento.
-              </p>
-              <p class="small_white_letters">
-                ¡Conoce más sobre el impacto generado por el CM Virtual en esta sección!
+                Los celulares Conecta Mayor son dispositivos inclusivos, diseñados especialmente para ser usados por personas mayores. Disponen de una interfaz que facilita el uso del celular para el beneficiario, conectándolo con sus redes de apoyo y locales. También cuentan con botones predeterminados para diferentes necesidades de conexión, información y entretenimiento.
               </p>
             </div>
             <div class="col-md-1">
@@ -188,10 +185,10 @@
                 Impacto Central de Acompañamiento
               </h5>
               <p class="small_blue_letters">
-                La Central de acompañamiento es una línea telefónica con la que los beneficiarios de Conecta Mayor pueden comunicarse para ser escuchados y acompañados durante las 24 horas. Al llamar, son acogidos por ejecutivos especialmente capacitados para acompañarlos, entregarles información y gestionar servicios de emergencia locales de ser necesario.
+                La Central de acompañamiento es una línea telefónica con la que los beneficiarios de Conecta Mayor pueden comunicarse para ser escuchados y acompañados durante las 24 horas. Este servicio busca contrarrestrar la soledad y/o aislamiento que muchos de ellos enfrentan.
               </p>
               <p class="small_blue_letters">
-                Las personas mayores pueden llamar haciendo un solo clic y todas las veces que quieran hacerlo. Este servicio busca contrarrestar la soledad y/o aislamiento que muchos de ellos enfrentan.
+                Las personas mayores pueden llamar haciendo un solo click y todas las veces que quieran hacerlo. Al contactarnos, son acogidos por ejecutivos especialmente capacitados para acompañarlos, entregarles información y gestionar servicios de emergencia local, entre otros. Además desde Conecta Mayor llamamos a las personas para darles compañia, hacer seguimiento y recordarles que pueden contar con nosotros. 
               </p>
             </div>
             <div class="col-md-1">
@@ -1461,6 +1458,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     background-color: #2768DC !important;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 800;
+    box-shadow: 10px 5px 5px black;
   }
   .btn-circle.btn-sm.second_integration_button {
     width: 420px;
