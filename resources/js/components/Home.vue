@@ -127,7 +127,7 @@
             <div class="col-md-1">
 
             </div>
-            <div class="col-md-4 text-justify">
+            <div class="col-md-4">
               <h5 class="big_white_letters">
                 Impacto Celulares CM
               </h5>
