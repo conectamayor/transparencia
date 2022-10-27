@@ -1475,6 +1475,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     background-color: #2768DC !important;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 800;
+    box-shadow: 10px 5px 5px black;
   }
 
   .faq_accordion .card-header {
