@@ -539,12 +539,6 @@
                       <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                     </div>
                   </b-list-group-item>
-                  <b-list-group-item href="#" class="memory_pair_list">
-                    <div class="d-flex w-100 justify-content-end">
-                      <h2 class="memory_font">Memoria 2022</h2>&nbsp;
-                      <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
-                    </div>
-                  </b-list-group-item>
                 </b-list-group>
             </div>
           </div>
@@ -560,7 +554,7 @@
                 </h5>
                 <br><br>
                 <p class="small_white_letters">
-                  La FECU social es una forma estandarizada de presentar una memoria anual o balance, que reuna las actividades realizadas por Conecta Mayor cada año, además de incorporar una rendición detallada tanto de los aspectos financieros como de gestión.
+                  La FECU social es una forma estandarizada de presentar una memoria anual o balance, que reúne a las actividades realizadas por Conecta Mayor cada año, además de incorporar una rendición detallada tanto de los aspectos financieros como de gestión.
                 </p>
               </div>
             </div>
@@ -576,12 +570,6 @@
                   <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/FECU SOCIAL FCM - 2021-final.pdf" target="_blank" class="fecu_no_pair_list">
                     <div class="d-flex w-100 justify-content-end">
                       <h2 class="memory_font">FECU 2021</h2>&nbsp;
-                      <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
-                    </div>
-                  </b-list-group-item>
-                  <b-list-group-item href="#" class="fecu_pair_list">
-                    <div class="d-flex w-100 justify-content-end">
-                      <h2 class="memory_font">FECU 2022</h2>&nbsp;
                       <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm memory-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                     </div>
                   </b-list-group-item>
@@ -614,12 +602,6 @@
                 <b-list-group-item href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Auditoría 2021 - Final (emisión).pdf" target="_blank" class="financial_no_pair_list">
                   <div class="d-flex w-100 justify-content-end">
                     <h2 class="financial_font">Estados Financieros 2021</h2>&nbsp;
-                    <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
-                  </div>
-                </b-list-group-item>
-                <b-list-group-item href="#" class="financial_pair_list">
-                  <div class="d-flex w-100 justify-content-end">
-                    <h2 class="financial_font">Estados Financieros 2022</h2>&nbsp;
                     <b-button variant="primary" class="btn btn-secondary btn-circle btn-sm financial-list-button"><i class="fa-solid fa-angle-right"></i></b-button>
                   </div>
                 </b-list-group-item>
