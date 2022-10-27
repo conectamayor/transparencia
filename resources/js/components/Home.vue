@@ -242,17 +242,19 @@
           </template>
         </b-carousel-slide>
         <b-carousel-slide>
-          <a href="https://google.com">
+          
             <template #img>
-              <img
-                class="d-block img-fluid w-100"
-                width="1024"
-                height="480"
-                :src="'./frontend/assets/images/social_impact/Grupo 104.jpg'"
-                alt="image slot"
+              <a href="httpa://google.com">
+                <img
+                  class="d-block img-fluid w-100"
+                  width="1024"
+                  height="480"
+                  :src="'./frontend/assets/images/social_impact/Grupo 104.jpg'"
+                  alt="image slot"
               >
+            </a>
             </template>
-          </a>
+          
         </b-carousel-slide>
       </b-carousel>
     </div>
