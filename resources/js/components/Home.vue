@@ -368,10 +368,10 @@
                 Kit de insumos y alimentos
               </h5>
               <h5 class="small_blue_letters">
-                Adicionalmente, las 80.000 personas mayores beneficiadas recibieron dos cajas de alimentos y artículos de aseo para el hogar e higiene personal, lo que busca dar un apoyo adicional para paliar parte de los problemas que se han presentado durante la pandemia.
+                Adicional a los equipos celulares, las 80.000 personas mayores beneficiadas recibieron dos cajas de alimentos y artículos de aseo para el hogar e higiene personal, lo que buscó dar un apoyo adicional para paliar parte de los problemas presentados en la época más cruda de la pandemia.
               </h5>
               <h5 class="pt-2">
-                <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Informe de Kits Insumos y Alimentos.pdf" target="_blank"  class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> de entregas</button></a>
+                <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Informe de Kits Insumos y Alimentos.pdf" target="_blank"  class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> de entregas</a></center>
               </h5>
             </div>
             <div class="col-md-1">
