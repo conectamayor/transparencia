@@ -1463,7 +1463,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     font-weight: 800;
   }
   .btn-circle.btn-sm.second_integration_button {
-    width: 350px;
+    width: 380px;
     height: 80px;
     padding-top: 10px;
     padding-left: 20px;
