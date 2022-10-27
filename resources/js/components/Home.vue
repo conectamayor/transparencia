@@ -519,7 +519,7 @@
                   Memoria
                 </h5>
                 <br><br>
-                <p class="small_white_letters">
+                <p class="small_white_letters text-justify">
                   &nbsp; &nbsp; &nbsp;En nuestras memorias anuales, podrás encontrar las metas, proyectos y resultados de nuestras actividades y operaciones durante cada año. También podrás encontrar información detallada sobre nuestros estados financieros auditados. Te invitamos a conocer más acerca de nuestros proyectos y cómo estamos impactando en la calidad de vida de las personas mayores.
                 </p>
               </div>
@@ -553,7 +553,7 @@
                   Informe FECU
                 </h5>
                 <br><br>
-                <p class="small_white_letters">
+                <p class="small_white_letters text-justify">
                   &nbsp; &nbsp; &nbsp;La FECU social es una forma estandarizada de presentar una memoria anual o balance, que reúne las actividades realizadas por Conecta Mayor cada año, además de incorporar una rendición detallada tanto de los aspectos financieros como de gestión.
                 </p>
               </div>
@@ -586,7 +586,7 @@
                 Estados Financieros
               </h5>
               <br><br>
-              <p class="small_white_letters">
+              <p class="small_white_letters text-justify">
                 &nbsp; &nbsp; &nbsp;Revisa los informes de los estados financieros auditados de la Fundación de forma resumida.
               </p>
             </div>
