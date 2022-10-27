@@ -100,7 +100,7 @@
               </p>
               <center><button @click="Iniciatives()" type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
               <br>
-              <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Hallazgos a un año del programa CM (1) (2).pdf" target="_blank" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe de nuestra primera<br> evaluación de impacto</a></center>
+              <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Hallazgos a un año del programa CM (1) (2).pdf" target="_blank" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe de nuestra primera<br> evaluación de impacto (2021)</a></center>
             </div>
             <div class="col-md-1">
 
@@ -554,7 +554,7 @@
                 </h5>
                 <br><br>
                 <p class="small_white_letters">
-                  La FECU social es una forma estandarizada de presentar una memoria anual o balance, que reúne a las actividades realizadas por Conecta Mayor cada año, además de incorporar una rendición detallada tanto de los aspectos financieros como de gestión.
+                  La FECU social es una forma estandarizada de presentar una memoria anual o balance, que reúne las actividades realizadas por Conecta Mayor cada año, además de incorporar una rendición detallada tanto de los aspectos financieros como de gestión.
                 </p>
               </div>
             </div>
