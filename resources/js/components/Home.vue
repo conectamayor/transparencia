@@ -1244,6 +1244,34 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     .memory_font {
       font-size: 30px;
     }
+
+    .btn-circle.btn-sm.first_integration_button {
+      width: 420px;
+      height: 65px;
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 18px;
+      text-align: center;
+      background-color: #2768DC !important;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 800;
+      box-shadow: 10px 5px 5px black;
+    }
+    .btn-circle.btn-sm.second_integration_button {
+      width: 420px;
+      height: 80px;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      border-radius: 15px;
+      font-size: 18px;
+      text-align: center;
+      background-color: #2768DC !important;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 800;
+      box-shadow: 10px 5px 5px black;
+    }
   }
 
   @media (max-width: 575px) {
@@ -1340,6 +1368,31 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
     .memory_font {
       font-size: 20px;
     }
+    .btn-circle.btn-sm.first_integration_button {
+      width: 300px;
+      height: 65px;
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 18px;
+      text-align: center;
+      background-color: #2768DC !important;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 800;
+    }
+    .btn-circle.btn-sm.second_integration_button {
+      width: 300px;
+      height: 80px;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      border-radius: 15px;
+      font-size: 18px;
+      text-align: center;
+      background-color: #2768DC !important;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 800;
+    }
   }
   
   .pt-6 {
@@ -1429,33 +1482,6 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       font-weight: 100;
       font-size: 20px;
       opacity: 1;
-  }
-  .btn-circle.btn-sm.first_integration_button {
-    width: 420px;
-    height: 65px;
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 18px;
-    text-align: center;
-    background-color: #2768DC !important;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 800;
-    box-shadow: 10px 5px 5px black;
-  }
-  .btn-circle.btn-sm.second_integration_button {
-    width: 420px;
-    height: 80px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    font-size: 18px;
-    text-align: center;
-    background-color: #2768DC !important;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 800;
-    box-shadow: 10px 5px 5px black;
   }
 
   .faq_accordion .card-header {
