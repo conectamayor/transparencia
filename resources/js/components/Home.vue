@@ -1373,7 +1373,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       height: 65px;
       padding: 20px;
       border-radius: 15px;
-      font-size: 18px;
+      font-size: 14px;
       text-align: center;
       background-color: #2768DC !important;
       font-family: 'Ubuntu', sans-serif;
@@ -1387,7 +1387,7 @@ Si sabes de un robo o pérdida del dispositivo, no dudes en avisarnos a través 
       padding-right: 20px;
       padding-bottom: 20px;
       border-radius: 15px;
-      font-size: 18px;
+      font-size: 14px;
       text-align: center;
       background-color: #2768DC !important;
       font-family: 'Ubuntu', sans-serif;
