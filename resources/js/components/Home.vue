@@ -96,11 +96,11 @@
                 En Conecta Mayor promovemos la integración social de las personas mayores a través de iniciativas, que permiten conectarlas, visibilizarlas y brindarles compañía, además de favorecer su inclusión digital.
               </p>
               <p class="small_gray_letters">
-                A través de nuestro trabajo, buscamos impactar y generar cambios positivos en su calidad de vida. <br><br>En esta sección encontrarás los resultados obtenidos hasta el momento ¡Te invitamos a conocer todas nuestras iniciativas!
+                A través de nuestro trabajo, buscamos impactar y generar cambios positivos en su calidad de vida. <br><br>En esta sección te invitamos a conocer todas nuestras iniciativas y revisar los resultados
               </p>
               <center><button @click="Iniciatives()" type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
               <br>
-              <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Hallazgos a un año del programa CM (1) (2).pdf" target="_blank" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe <br> la evaluación de impacto</a></center>
+              <center><a href="http://transparencia.conectamayor.cl/public/frontend/assets/documents/Hallazgos a un año del programa CM (1) (2).pdf" target="_blank" class="btn btn-secondary btn-circle btn-sm second_integration_button">Descarga el informe de nuestra primera<br> evaluación de impacto</a></center>
             </div>
             <div class="col-md-1">
 
