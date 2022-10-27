@@ -221,13 +221,15 @@
         <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
         <b-carousel-slide>
           <template #img>
-            <img
-              class="d-block img-fluid w-100"
-              width="1024"
-              height="480"
-              :src="'./frontend/assets/images/social_impact/Grupo 100.jpg'"
-              alt="image slot"
-            >
+            <a href="https://conectamayor.cl/blog/">
+              <img
+                class="d-block img-fluid w-100"
+                width="1024"
+                height="480"
+                :src="'./frontend/assets/images/social_impact/Grupo 100.jpg'"
+                alt="image slot"
+              >
+            </a>
           </template>
         </b-carousel-slide>
         <b-carousel-slide>
@@ -244,15 +246,15 @@
         <b-carousel-slide>
           
             <template #img>
-              <a href="https://google.com">
+              <a href="https://www.vocesmayores.cl/">
                 <img
                   class="d-block img-fluid w-100"
                   width="1024"
                   height="480"
                   :src="'./frontend/assets/images/social_impact/Grupo 104.jpg'"
                   alt="image slot"
-              >
-            </a>
+                >
+              </a>
             </template>
           
         </b-carousel-slide>
