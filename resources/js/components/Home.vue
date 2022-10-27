@@ -42,7 +42,7 @@
               Impacto Social
             </h5>
             <h5 class="small_blue_letters">
-              Conoce cómo impactan nuestros proyectos mejora la calidad de vida de personas mayores.
+              Conoce cómo impactan nuestros proyectos mejorando la calidad de vida de personas mayores.
             </h5>
             <h5 class="pt-2">
               <center><b-button v-on:click="changeArrowImpactoSocial" v-b-toggle.collapse-1 variant="primary" class="btn btn-secondary btn-circle btn-sm"><i v-if="impacto_social_open == 0" class="fa-solid fa-angle-right"></i><i v-if="impacto_social_open == 1" class="fa-solid fa-angle-down"></i></b-button></b-button></center>
@@ -96,7 +96,7 @@
                 En Conecta Mayor promovemos la integración social de las personas mayores a través de iniciativas, que permiten conectarlas, visibilizarlas y brindarles compañía, además de favorecer su inclusión digital.
               </p>
               <p class="small_gray_letters">
-                A través de nuestro trabajo, buscamos impactar y generar cambios positivos en su calidad de vida. <br><br>En esta sección te invitamos a conocer todas nuestras iniciativas y revisar los resultados
+                A través de nuestro trabajo, buscamos impactar y generar cambios positivos en su calidad de vida. <br><br>En esta sección te invitamos a conocer todas nuestras iniciativas y revisar los resultados.
               </p>
               <center><button @click="Iniciatives()" type="button" class="btn btn-secondary btn-circle btn-sm first_integration_button">Conoce nuestras iniciativas</button></center>
               <br>
