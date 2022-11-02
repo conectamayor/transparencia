@@ -323,7 +323,7 @@
           </template>
         </b-carousel-slide>
       </b-carousel>
-      <div class="section pb-5 blue_section">
+      <div class="section pb-5 pt-5 blue_section">
         <div class="container-fluid">
           <div class="row" style="margin-top 20px;">
             <div class="col-md-12">
