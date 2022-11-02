@@ -140,12 +140,10 @@
 
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
+          <div class="col-md-12" style="margin-left: 0px !important; margin-right: 0px !important;">
 
-              <img :src="'./frontend/assets/images/social_impact/impact_grapics.png'" class="img-fluid" />
+            <img :src="'./frontend/assets/images/social_impact/impact_grapics.png'" class="img-fluid" />
 
-            </div>
           </div>
         </div>
       </div>
