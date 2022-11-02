@@ -143,11 +143,32 @@
           
         </div>
       </div>
-      <div class="col-md-12" style="margin-left: 0px !important; margin-right: 0px !important;">
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/social_impact/impact_grapics.png'"
+              alt="image slot"
+            >
+          </template>
 
-      <img :src="'./frontend/assets/images/social_impact/impact_grapics.png'" class="img-fluid" />
+          
+        </b-carousel-slide>
+      </b-carousel>
 
-      </div>
       <div class="section pt-5 pb-5 gray_ligth_section section-padding">
         <div class="container-fluid">
           <div class="row">
