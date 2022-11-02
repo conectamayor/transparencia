@@ -17,7 +17,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            :src="'./frontend/assets/images/slider/Hero-1.jpg'"
+            :src="'./frontend/assets/images/slider/hero_1.png'"
             alt="image slot"
           >
         </template>
@@ -76,7 +76,7 @@
             </div>
             <div class="col-md-4">
               <h1 class="numbers">
-                8.000
+                17.000
               </h1>
               <h1 class="small_blue_letters">
                 Personas usan frecuentemente nuestro servicio de acompañamiento, disponible para conversar todos los días de la semana
@@ -141,23 +141,9 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-md-12">
 
-            </div>
-            <div class="col-md-4">
-              <img :src="'./frontend/assets/images/social_impact/Graficosimpacto-03.png'" class="img-fluid" />
-            </div>
-            <div class="col-md-1">
-              
-            </div>
-            <div class="col-md-4 text-justify">
-              <img
-                class="img-fluid"
-                :src="'./frontend/assets/images/social_impact/400x400 impacto CM.png'"
-                alt="image slot"
-              >
-            </div>
-            <div class="col-md-1">
+              <img :src="'./frontend/assets/images/social_impact/impact_grapics.png'" class="img-fluid" />
 
             </div>
           </div>
