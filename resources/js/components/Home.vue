@@ -121,7 +121,7 @@
             <div class="col-md-1">
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-10">
               <img :src="'./frontend/assets/images/social_impact/slider2.jpeg'" class="img-fluid" />
             </div>
             <div class="col-md-1">
