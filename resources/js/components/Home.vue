@@ -232,7 +232,7 @@
                 class="d-block img-fluid w-100"
                 width="1024"
                 height="480"
-                :src="'./frontend/assets/images/social_impact/Grupo 100.jpg'"
+                :src="'./frontend/assets/images/social_impact/grupo_100_v2.png'"
                 alt="image slot"
               >
             </a>
@@ -245,7 +245,7 @@
                 class="d-block img-fluid w-100"
                 width="1024"
                 height="480"
-                :src="'./frontend/assets/images/social_impact/Grupo 103.jpg'"
+                :src="'./frontend/assets/images/social_impact/grupo_103_v2.png'"
                 alt="image slot"
               >
             </a>
@@ -259,7 +259,7 @@
                   class="d-block img-fluid w-100"
                   width="1024"
                   height="480"
-                  :src="'./frontend/assets/images/social_impact/Grupo 104.jpg'"
+                  :src="'./frontend/assets/images/social_impact/grupo_104_v2.png'"
                   alt="image slot"
                 >
               </a>
