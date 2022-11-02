@@ -121,7 +121,7 @@
             <div class="col-md-1">
 
             </div>
-            <div class="col-md-4 pt-10">
+            <div class="col-md-4 pt-5">
               <img :src="'./frontend/assets/images/social_impact/slider2.jpeg'" class="img-fluid" />
             </div>
             <div class="col-md-1">
@@ -132,7 +132,7 @@
                 Impacto Celulares CM
               </h5>
               <br><br>
-              <p class="small_white_letters">
+              <p class="small_white_letters text-justify">
                 Los celulares Conecta Mayor son dispositivos inclusivos, diseñados especialmente para ser usados por personas mayores. Disponen de una interfaz que facilita el uso del celular para el beneficiario, conectándolo con sus redes de apoyo y locales. También cuentan con botones predeterminados para diferentes necesidades de conexión, información y entretenimiento.
               </p>
             </div>
