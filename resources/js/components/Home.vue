@@ -13,7 +13,7 @@
     >
       <b-carousel-slide>
         <template #img>
-          <a href="https://conectamayor.cl/contacto-usuario/">
+          <a href="https://conectamayor.cl/contacto-usuario/" target="_blank">
             <img
               class="d-block img-fluid w-100"
               width="1024"
