@@ -327,7 +327,7 @@
         <div class="container-fluid">
           <div class="row" style="margin-top 20px;">
             <div class="col-md-12">
-              <iframe title="PBi Publico" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=090ce627-1881-4e62-8c22-fcac3fd4f5db&autoAuth=true&ctid=b2e0ade9-588a-49ee-b1e1-eb6bac18ef37" frameborder="0" allowFullScreen="true"></iframe>
+              <iframe title="PBi Publico" width="1140" height="542" src="https://app.powerbi.com/view?r=eyJrIjoiNjJjMzJlZDEtMGRkMy00NzZhLTlhOGEtZjhjMDNkOTA5OTU0IiwidCI6ImIyZTBhZGU5LTU4OGEtNDllZS1iMWUxLWViNmJhYzE4ZWYzNyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
             </div>
           </div>
         </div>
