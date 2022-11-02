@@ -201,13 +201,31 @@
 
             </div>
           </div>
-          <div class="row text-center">
-            <div class="col-md-12">
-              <img :src="'./frontend/assets/images/social_impact/600x200impactosocial.png'" class="img-fluid" />
-            </div>
-          </div>
         </div>
       </div>
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide>
+          <template #img>
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'././frontend/assets/images/social_impact/datos_impacto.png'"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+      </b-carousel>
       <div class="section">
       <b-carousel
         id="carousel-1"
