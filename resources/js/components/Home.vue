@@ -317,7 +317,7 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              :src="'./frontend/assets/images/gochile/Grupo-88.png'"
+              :src="'./frontend/assets/images/gochile/gochile.png'"
               alt="image slot"
             >
           </template>
@@ -325,27 +325,6 @@
       </b-carousel>
       <div class="section pb-5 blue_section">
         <div class="container-fluid">
-          <div class="row" v-show="value1">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-              <b-card
-                img-src="./frontend/assets/images/gochile/dispositive.jpg"
-                img-alt="Image"
-                img-top
-                tag="article"
-                style="max-width: 100rem; border-radius: 25px !important; border: none !important;"
-                class="mb-2"
-              >
-                <b-card-text>
-                  <h1 class="go-chile-card-title text-center">
-                    Entrega de dispositivos por municipalidad
-                  </h1>
-                  <center><b-button v-on:click="togglePowerBiGoChile" variant="primary" class="btn btn-secondary btn-circle btn-sm"><i class="fa-solid fa-angle-right"></i></b-button></center>
-                </b-card-text>
-              </b-card>
-            </div>
-            <div class="col-md-3"></div>
-          </div>
           <div class="row" v-show="value2" style="margin-top 20px;">
             <div class="col-md-12">
               <iframe title="PBi Publico" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=090ce627-1881-4e62-8c22-fcac3fd4f5db&autoAuth=true&ctid=b2e0ade9-588a-49ee-b1e1-eb6bac18ef37" frameborder="0" allowFullScreen="true"></iframe>
