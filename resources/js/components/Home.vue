@@ -140,12 +140,13 @@
 
             </div>
           </div>
-          <div class="col-md-12" style="margin-left: 0px !important; margin-right: 0px !important;">
-
-            <img :src="'./frontend/assets/images/social_impact/impact_grapics.png'" class="img-fluid" />
-
-          </div>
+          
         </div>
+      </div>
+      <div class="col-md-12" style="margin-left: 0px !important; margin-right: 0px !important;">
+
+      <img :src="'./frontend/assets/images/social_impact/impact_grapics.png'" class="img-fluid" />
+
       </div>
       <div class="section pt-5 pb-5 gray_ligth_section section-padding">
         <div class="container-fluid">
