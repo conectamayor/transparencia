@@ -13,13 +13,15 @@
     >
       <b-carousel-slide>
         <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            :src="'./frontend/assets/images/slider/hero_1.png'"
-            alt="image slot"
-          >
+          <a href="https://conectamayor.cl/contacto-usuario/">
+            <img
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="480"
+              :src="'./frontend/assets/images/slider/hero_1.png'"
+              alt="image slot"
+            >
+          </a>
         </template>
 
         
