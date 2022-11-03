@@ -675,7 +675,7 @@
           
           <div class="col-md-4">
             <h5 class="big_blue_letters" >
-              Preguntas Frecuentes
+              Preguntas Frecuentes2
             </h5>
             <h5 class="small_blue_letters">
               ¡No te quedes con dudas! Acá resolvemos las más comunes.
