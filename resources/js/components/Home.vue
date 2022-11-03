@@ -149,7 +149,7 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <video width="100%" controls autoplay>
+              <video width="50%" controls autoplay>
                 <source src="https://conectamayor.cl/video_launcher.MP4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
