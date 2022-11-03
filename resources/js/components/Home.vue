@@ -144,13 +144,11 @@
           </div>
           <div class="row">
             <div class="col-md-2">
-              <img :src="'./frontend/assets/images/social_impact/launcher.png'" class="img-fluid" />
             </div>
             <div class="col-md-8">
               <img :src="'./frontend/assets/images/social_impact/launcher.png'" class="img-fluid" />
             </div>
             <div class="col-md-2">
-              <img :src="'./frontend/assets/images/social_impact/launcher.png'" class="img-fluid" />
             </div>
           </div>
           <div class="row">
