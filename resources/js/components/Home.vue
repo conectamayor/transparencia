@@ -660,7 +660,7 @@
         </b-carousel>
       </div>
     </b-collapse>
-    <div class="section pt-5 pb-5 gray_ligth_section">
+    <div class="section pt-5 pb-5 gray_ligth_section" style="display: none;">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-1">
@@ -674,7 +674,7 @@
           </div>
           
           <div class="col-md-4">
-            <h5 class="big_blue_letters" style="display: none;">
+            <h5 class="big_blue_letters" >
               Preguntas Frecuentes
             </h5>
             <h5 class="small_blue_letters">
