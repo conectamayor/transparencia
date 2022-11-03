@@ -154,7 +154,7 @@
           <div class="row">
             <div class="col-md-12">
               <center>
-                <video width="70%" controls autoplay>
+                <video width="70%" controls>
                   <source src="https://conectamayor.cl/video_launcher.MP4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
@@ -674,7 +674,7 @@
           </div>
           
           <div class="col-md-4">
-            <h5 class="big_blue_letters">
+            <h5 class="big_blue_letters" style="display: none;">
               Preguntas Frecuentes
             </h5>
             <h5 class="small_blue_letters">
