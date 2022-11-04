@@ -41,14 +41,14 @@
     font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
-    font-size: 12px;
+    font-size: 17px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;
-    font-family: 'Raleway';
+    font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
-    font-size: 14px;
+    font-size: 17px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;
