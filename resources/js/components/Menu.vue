@@ -15,10 +15,10 @@
                     <b-nav-item href="#">Transparencia</b-nav-item>
                     <b-nav-item href="https://conectamayor.cl/contacto-usuario/">Contacto</b-nav-item>
                     <b-nav-item href="https://conectamayor.cl/blog/">Blog</b-nav-item>
-                    <b-nav-item href="https://conectamayor.cl/blog/" style="padding: 10px !important; color: #fff; background-color: #F05C68 !important;">Aportar</b-nav-item>
+                    <b-nav-item href="https://conectamayor.cl/blog/"><button type="button" style="background-color: #F05C68 !important;" class="btn btn-dark">Aportar</button></b-nav-item>
                 </b-navbar-nav>
 
-                <b-navbar-nav class="ml-auto icons">
+                <b-navbar-nav class="ml-auto">
                     <b-nav-item href="https://instagram.com/conectamayor/"><i class="fa-brands fa-instagram"></i></b-nav-item>
                     <b-nav-item href="https://www.facebook.com/ConectaMayor/"><i class="fa-brands fa-facebook"></i></b-nav-item>
                     <b-nav-item href="https://www.twitter.com/ConectaMayor"><i class="fa-brands fa-twitter"></i></b-nav-item>
