@@ -12,10 +12,11 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&family=Raleway:wght@800&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="http://transparencia.conectamayor.cl/frontend/assets/fonts/AlvarEssentialAlt-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="https://kit.fontawesome.com/000828be08.js" crossorigin="anonymous"></script>
 
 	<link href="{{ mix('css/app.css') }}" rel="stylesheet">
-
+    
 
 </head>
 
