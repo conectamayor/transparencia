@@ -18,7 +18,7 @@
                     <b-nav-item href="https://conectamayor.cl/faq/">Preguntas Frecuentes</b-nav-item>
                 </b-navbar-nav>
 
-                <b-navbar-nav class="ml-auto">
+                <b-navbar-nav class="ml-auto" sty>
                     <b-nav-item href="https://instagram.com/conectamayor/"><i class="fa-brands fa-instagram"></i></b-nav-item>
                     <b-nav-item href="https://www.facebook.com/ConectaMayor/"><i class="fa-brands fa-facebook"></i></b-nav-item>
                     <b-nav-item href="https://www.twitter.com/ConectaMayor"><i class="fa-brands fa-twitter"></i></b-nav-item>
@@ -38,7 +38,7 @@
 }
 .nav-item.nav-item.nav-item a {
     color: #464646 !important;
-    font-family: 'Raleway';
+    font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
     font-size: 14px;
