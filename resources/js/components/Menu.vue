@@ -13,9 +13,8 @@
                     <b-nav-item href="https://conectamayor.cl/quienes-somos/">Quiénes Somos</b-nav-item>
                     <b-nav-item href="https://conectamayor.cl/nuestras-iniciativas/">Nuestras Iniciativas</b-nav-item>
                     <b-nav-item href="#">Transparencia</b-nav-item>
-                    <b-nav-item href="https://conectamayor.cl/contacto-usuario/">Contactanos</b-nav-item>
+                    <b-nav-item href="https://conectamayor.cl/contacto-usuario/">Contacto</b-nav-item>
                     <b-nav-item href="https://conectamayor.cl/blog/">Blog</b-nav-item>
-                    <b-nav-item href="https://conectamayor.cl/faq/">Preguntas Frecuentes</b-nav-item>
                 </b-navbar-nav>
 
                 <b-navbar-nav class="ml-auto icons">
@@ -35,6 +34,7 @@
 <style scoped>
 .icons {
     background-color: #000 !important;
+    padding: 20px;
 }
 .navbar.navbar-dark.bg-dark {
     background-color: #fff !important;
@@ -44,21 +44,21 @@
     font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;
     font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;
     font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .navbar-toggler {
   border-color: #000;
