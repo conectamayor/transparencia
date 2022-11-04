@@ -34,7 +34,7 @@
 <style scoped>
 .icons {
     background-color: #000 !important;
-    padding: 37px;
+    padding: 45px;
     margin-right: 0px !important;
 }
 
