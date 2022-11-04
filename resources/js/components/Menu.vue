@@ -38,12 +38,10 @@
 }
 .nav-item.nav-item.nav-item a {
     color: #464646 !important;
-    font-family: 'Alvar Essential Alt';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Alvar-Essential';
     opacity: 1;
     letter-spacing: 0.28px;
-    font-size: 17px;
+    font-size: 12px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;

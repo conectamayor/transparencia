@@ -16,3 +16,38 @@
     top: 0;
     left: 0;
 }
+
+@font-face {
+    font-family: "Alvar-Essential";
+  
+    src: url("../fonts/Alvar-Essential-Black.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/Alvar-Essential-Black.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Alvar-Essential";
+  
+    src: url("../fonts/Alvar-Essential-Medium.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/Alvar-Essential-Medium.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alvar-Essential-Regular";
+    src: url("../fonts/Alvar-Essential-Regular.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/Alvar-Essential-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alvar-Essential";
+  
+    src: url("../fonts/Alvar-Essential-SemiBold.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/Alvar-Essential-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: 700;
+    font-style: normal;
+}
