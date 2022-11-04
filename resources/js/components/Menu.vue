@@ -8,7 +8,7 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav class="mx-auto">
+                <b-navbar-nav class="me-auto">
                     <b-nav-item href="https://conectamayor.cl">Inicio</b-nav-item>
                     <b-nav-item href="https://conectamayor.cl/quienes-somos/">Quiénes Somos</b-nav-item>
                     <b-nav-item href="https://conectamayor.cl/nuestras-iniciativas/">Nuestras Iniciativas</b-nav-item>
@@ -34,7 +34,8 @@
 <style scoped>
 .icons {
     background-color: #000 !important;
-    padding: 20px;
+    padding: 30px;
+    color: #fff !important;
 }
 .navbar.navbar-dark.bg-dark {
     background-color: #fff !important;
@@ -42,21 +43,18 @@
 .nav-item.nav-item.nav-item a {
     color: #464646 !important;
     font-family: 'Alvar-Essential';
-    opacity: 1;
     letter-spacing: 0.28px;
     font-size: 15px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;
     font-family: 'Alvar-Essential';
-    opacity: 1;
     letter-spacing: 0.28px;
     font-size: 15px;
 }
 .nav-item.nav-item.nav-item a:hover {
     color: #F05C68 !important;
     font-family: 'Alvar-Essential';
-    opacity: 1;
     letter-spacing: 0.28px;
     font-size: 15px;
 }
