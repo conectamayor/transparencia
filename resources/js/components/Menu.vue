@@ -15,7 +15,7 @@
                     <b-nav-item style="margin-top: 10px !important;" href="#">Transparencia</b-nav-item>
                     <b-nav-item style="margin-top: 10px !important;" href="https://conectamayor.cl/contacto-usuario/">Contacto</b-nav-item>
                     <b-nav-item style="margin-top: 10px !important;" href="https://conectamayor.cl/blog/">Blog</b-nav-item>
-                    <b-nav-item href="https://conectamayor.cl/blog/"><button type="button" style="background-color: #F05C68 !important;" class="btn btn-dark">Aportar</button></b-nav-item>
+                    <b-nav-item href="https://conectamayor.cl/aportar/"><button type="button" style="background-color: #F05C68 !important;" class="btn btn-dark">Aportar</button></b-nav-item>
                 </b-navbar-nav>
 
                 <b-navbar-nav class="ml-auto">
